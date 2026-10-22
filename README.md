@@ -6,14 +6,14 @@
 
 This repository accompanies our paper "[Look Before You Leap: Cross-Modal Screenshot-versus-DOM Consistency Checking for Defending GUI Agents against Deceptive Interfaces](#authors-and-citation)" (under review at *Computers & Security*). It contains our offline deceptive-interface environment, the cross-modal mismatch head `g_phi`, the corrective re-observation policy `pi_theta`, every evaluation protocol in the paper, and the archived logs behind each reported number. The README below walks you through setting up the environment, running each experiment, and reproducing the paper's results.
 
-**What LBYL does, in one paragraph.** A GUI agent can observe a button in two ways: through its pixels in the screenshot, and through its structure in the DOM / accessibility tree (accessible name, role). Deceptive interfaces often make these disagree, for example a button that *looks* like "Reject non-essential" but is *declared* as "Accept all cookies and ad tracking". LBYL freezes a vision-language model, encodes both channels with it, and trains a small head that compares them through `[p, s, p-s, p*s]`. When the head flags a control, LBYL corrects the page (for example by removing a hijacking overlay) and lets the agent look again before it clicks.
+**What LBYL does, in one paragraph.** A GUI agent can observe a button in two ways: through its pixels in the screenshot, and through its structure in the DOM / accessibility tree (accessible name, role). A deceptive interface can make these disagree, for example a button that *looks* like "Reject non-essential" but is *declared* as "Accept all cookies and ad tracking". LBYL freezes a vision-language model, encodes both channels with it, and trains a small head that compares them through `[p, s, p-s, p*s]`. When the head flags a control, LBYL corrects the page (for example by removing a hijacking overlay) and lets the agent look again before it clicks.
 
 **Please read the scope before using it.** LBYL is a precise instrument for the *perceptual-discrepancy* class, where screenshot and DOM disagree. On an offline re-creation of SusBench's real dark patterns, it does **not** transfer, because those patterns keep both channels consistent. Treat LBYL as one layer in a defense stack, not as a general dark-pattern detector.
 
 <p align="center" width="100%">
 <img src="assets/crossmodal.png" alt="Shortcut-proof result" style="width: 45%; min-width: 250px; display: block; margin: auto;">
 </p>
-<p align="center"><em>On a benchmark where neither channel alone carries any label information, only the cross-modal head separates deceptive from honest controls.</em></p>
+<p align="center"><em>On a constructed benchmark where neither channel alone carries label information, only the cross-modal head separates deceptive from honest controls (unseen-seed split; on unseen dark-pattern types accuracy drops to 0.62). The last bar is a zero-shot proxy of DUDE's screenshot-only input protocol, not DUDE itself.</em></p>
 
 ## :hammer_and_wrench: Setting Up the Environment
 
