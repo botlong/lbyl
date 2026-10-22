@@ -1,0 +1,11 @@
+[cfg] agent=qwen detector=heuristic feats=real:/root/autodl-tmp/lbyl/m0/gphi_data/feats.pt (620 crops, vis=2048 txt=2048) K=8 epochs=6 lam=0.05 threads=8
+[data] 220/280 train tasks (holdout templates: ['disguised_decline', 'fake_close_ad', 'inverted_consent_toggle'])
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   5%|▍         | 40/824 [00:00<00:02, 355.70it/s]Loading weights:   9%|▉         | 76/824 [00:00<00:02, 334.03it/s]Loading weights:  13%|█▎        | 111/824 [00:00<00:02, 320.09it/s]Loading weights:  18%|█▊        | 147/824 [00:00<00:02, 332.79it/s]Loading weights:  22%|██▏       | 181/824 [00:00<00:01, 322.16it/s]Loading weights:  26%|██▌       | 214/824 [00:00<00:02, 294.94it/s]Loading weights:  30%|██▉       | 244/824 [00:00<00:02, 275.54it/s]Loading weights:  34%|███▎      | 278/824 [00:00<00:01, 284.05it/s]Loading weights:  38%|███▊      | 315/824 [00:01<00:01, 299.53it/s]Loading weights:  43%|████▎     | 351/824 [00:01<00:01, 305.31it/s]Loading weights:  47%|████▋     | 388/824 [00:01<00:01, 316.32it/s]Loading weights:  51%|█████     | 421/824 [00:01<00:01, 312.14it/s]Loading weights:  60%|██████    | 496/824 [00:01<00:00, 432.00it/s]Loading weights:  72%|███████▏  | 592/824 [00:01<00:00, 579.41it/s]Loading weights:  84%|████████▍ | 696/824 [00:01<00:00, 707.27it/s]Loading weights:  96%|█████████▌| 790/824 [00:01<00:00, 774.00it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 451.69it/s]
+[epoch 0] states=80 mean_R=+0.895 safe_frac=0.96 | sampled actions: remove=616 relabel=6 highlight=9 noop=9
+[epoch 1] states=80 mean_R=+0.950 safe_frac=1.00 | sampled actions: remove=640 relabel=0 highlight=0 noop=0
+[epoch 2] states=80 mean_R=+0.950 safe_frac=1.00 | sampled actions: remove=640 relabel=0 highlight=0 noop=0
+[epoch 3] states=80 mean_R=+0.950 safe_frac=1.00 | sampled actions: remove=640 relabel=0 highlight=0 noop=0
+[epoch 4] states=80 mean_R=+0.950 safe_frac=1.00 | sampled actions: remove=640 relabel=0 highlight=0 noop=0
+[epoch 5] states=80 mean_R=+0.950 safe_frac=1.00 | sampled actions: remove=640 relabel=0 highlight=0 noop=0
+[saved] results/pi_theta.pt
+TRAIN_PI_DONE

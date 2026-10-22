@@ -1,0 +1,16 @@
+
+wrote 720 elements  (360 mismatch / 360 match)  -> /root/autodl-tmp/lbyl/m0/gphi_data_crossmodal
+aria-concept label balance (each ~50/50 -> aria alone cannot solve it):
+  accept_tracking    label0= 30 label1= 30
+  allow_notif        label0= 30 label1= 30
+  block_notif        label0= 30 label1= 30
+  complete_addon     label0= 30 label1= 30
+  complete_plain     label0= 30 label1= 30
+  continue_free      label0= 30 label1= 30
+  decline_tracking   label0= 30 label1= 30
+  download_ad        label0= 30 label1= 30
+  download_official  label0= 30 label1= 30
+  keep_subscribed    label0= 30 label1= 30
+  subscribe          label0= 30 label1= 30
+  unsubscribe        label0= 30 label1= 30
+MAKE_CROSSMODAL_DONE

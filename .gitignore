@@ -1,0 +1,16 @@
+# generated pages, crops and features (rebuild with the scripts below)
+pages/
+gphi_data/
+gphi_data_*/
+adaptive_gphi_data/
+adaptive_out/frontier_adaptive.json
+# weights
+*.pt
+*.ckpt
+*.safetensors
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env

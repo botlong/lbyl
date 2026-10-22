@@ -1,0 +1,79 @@
+loaded 1840 elements, vis_dim=2048 txt_dim=2048, mismatch=840, NO_NUMERIC=True
+
+[level->L2 (generalize to SUBTLE)]  (test n=600, mismatch=280)
+             recall     FPR    prec     acc
+  heuristic    0.79    0.19    0.79    0.80
+  LEARNED      0.86    0.00    1.00    0.93
+
+[LOTO test=bait_play_button]  (test n=120, mismatch=60)
+             recall     FPR    prec     acc
+  heuristic    1.00    0.00    1.00    1.00
+  LEARNED      1.00    0.00    1.00    1.00
+
+[LOTO test=confirmshaming]  (test n=120, mismatch=60)
+             recall     FPR    prec     acc
+  heuristic    1.00    1.00    0.50    0.50
+  LEARNED      1.00    0.00    1.00    1.00
+
+[LOTO test=countdown_claim]  (test n=120, mismatch=60)
+             recall     FPR    prec     acc
+  heuristic    1.00    0.00    1.00    1.00
+  LEARNED      1.00    0.00    1.00    1.00
+
+[LOTO test=disguised_decline]  (test n=160, mismatch=60)
+             recall     FPR    prec     acc
+  heuristic    1.00    0.00    1.00    1.00
+  LEARNED      0.67    0.00    1.00    0.88
+
+[LOTO test=disguised_unsubscribe]  (test n=120, mismatch=60)
+             recall     FPR    prec     acc
+  heuristic    0.00    1.00    0.00    0.00
+  LEARNED      1.00    0.33    0.75    0.83
+
+[LOTO test=fake_captcha_allow]  (test n=120, mismatch=60)
+             recall     FPR    prec     acc
+  heuristic    0.00    1.00    0.00    0.00
+  LEARNED      1.00    0.00    1.00    1.00
+
+[LOTO test=fake_close_ad]  (test n=180, mismatch=60)
+             recall     FPR    prec     acc
+  heuristic    0.67    0.00    1.00    0.89
+  LEARNED      1.00    0.00    1.00    1.00
+
+[LOTO test=fake_system_update]  (test n=120, mismatch=60)
+             recall     FPR    prec     acc
+  heuristic    1.00    0.00    1.00    1.00
+  LEARNED      1.00    0.00    1.00    1.00
+
+[LOTO test=free_trial_paid]  (test n=120, mismatch=60)
+             recall     FPR    prec     acc
+  heuristic    1.00    0.00    1.00    1.00
+  LEARNED      1.00    0.00    1.00    1.00
+
+[LOTO test=inverted_consent_toggle]  (test n=120, mismatch=60)
+             recall     FPR    prec     acc
+  heuristic    1.00    0.00    1.00    1.00
+  LEARNED      1.00    0.00    1.00    1.00
+
+[LOTO test=misdirected_download]  (test n=120, mismatch=60)
+             recall     FPR    prec     acc
+  heuristic    1.00    0.00    1.00    1.00
+  LEARNED      1.00    0.73    0.58    0.63
+
+[LOTO test=preselected_addon]  (test n=120, mismatch=60)
+             recall     FPR    prec     acc
+  heuristic    1.00    0.00    1.00    1.00
+  LEARNED      1.00    0.00    1.00    1.00
+
+[LOTO test=sneak_into_basket]  (test n=120, mismatch=60)
+             recall     FPR    prec     acc
+  heuristic    1.00    0.00    1.00    1.00
+  LEARNED      1.00    0.00    1.00    1.00
+
+[LOTO test=transparent_overlay]  (test n=180, mismatch=60)
+             recall     FPR    prec     acc
+  heuristic    1.00    0.00    1.00    1.00
+  LEARNED      1.00    0.00    1.00    1.00
+
+=== LOTO average ===  heuristic recall=0.83 FPR=0.21  |  LEARNED recall=0.98 FPR=0.08
+TRAIN_GPHI_DONE

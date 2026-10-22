@@ -1,0 +1,40 @@
+=== FULL de-numeric 决定性复核(2026-07-12,本地 CPU;回应评审发现"位置捷径混淆") ===
+背景: gphi_data_realistic_cm 存在位置泄漏(x=111 全 label0 / x=453 全 label1,单阈值 100% 分类;
+      cells 顺序自创建即固定,crossmodal_eval.py CONFIGS 的 FULL 全 git 史含 numeric),
+      需回答: Fig 2/§5.6/InternVL 的 FULL=1.00 是否依赖 bbox 位置特征。
+环境: python 3.12.11 (pyenv), torch 2.13.0+cu130 (CPU, 8 threads), 与箱不同版本。
+协议: 逐字复用 m0/crossmodal_eval.py(确定性分层 70/30 RANDOM + CM_HOLDOUT=
+      disguised_decline,fake_close_ad,inverted_consent_toggle),train_gphi.train_head
+      原超参(200 epochs, Adam 1e-3, wd 1e-4, seed=0),仅扩展 CONFIGS。
+锚点: FULL(+num) 两 split 与归档逐位一致 —— Qwen: 1.00/0.00/1.00 与 0.17/0.33/0.42
+      == repro_20260708/chrome_holdout.log;InternVL: 1.00/0.00/1.00 与 0.50/0.67/0.42
+      == results/R4_internvl_summary.txt L248-258。(顺带证明 R4 即由已提交代码产出。)
+注: ARIA/PIXEL-ONLY 的 recall/FPR 在不同 torch 版本下有漂移(任务在 chance 水平,训练动力学
+    RNG 敏感),acc 恒 0.50;有信号的 FULL 行则跨版本逐位复现。
+
+--- Qwen2.5-VL-3B feats.pt ---
+RANDOM  FULL(+num)=1.00/0.00/1.00  FULL(no-num)=1.00/0.00/1.00  NUM-ONLY=1.00/0.00/1.00
+        ARIA-ONLY=0.46/0.46/0.50   PIXEL-ONLY=0.00/0.00/0.50
+HOLDOUT FULL(+num)=0.17/0.33/0.42  FULL(no-num)=0.17/0.28/0.44  NUM-ONLY=1.00/0.00/1.00
+        ARIA-ONLY=1.00/1.00/0.50   PIXEL-ONLY=0.28/0.28/0.50
+
+--- InternVL3-8B feats_internvl.pt ---
+RANDOM  FULL(+num)=1.00/0.00/1.00  FULL(no-num)=1.00/0.00/1.00  NUM-ONLY=1.00/0.00/1.00
+        ARIA-ONLY=0.21/0.21/0.50   PIXEL-ONLY=0.43/0.43/0.50
+HOLDOUT FULL(+num)=0.50/0.67/0.42  FULL(no-num)=0.50/0.67/0.42  NUM-ONLY=1.00/0.00/1.00
+        ARIA-ONLY=0.17/0.17/0.50   PIXEL-ONLY=0.00/0.00/0.50
+
+--- Qwen FULL(no-num) RANDOM 8-seed 稳健性 ---
+seed0..7 全部 recall=1.000 FPR=0.000 acc=1.000  (mean=1.0000 min=max=1.000)
+
+=== 结论 ===
+1. 泄漏实锤且可学: NUM-ONLY(纯 opacity/bbox/role 标量)两 split、两骨干均 1.00 —— §5.6
+   L407 "only a head that maps both channels...can separate them" 在该实例化下字面不成立。
+2. 招牌数字不受影响: FULL(no-num) RANDOM = 1.00(8/8 seeds;InternVL 同),held-out
+   0.42→0.44 基本不变 —— Fig 2/§5.6/InternVL 复现的数值无须改动。
+3. 头确实没学位置(由推断升为直接证明): 位置规则跨类型完美迁移(NUM-ONLY held-out=1.00),
+   而 FULL(+num) held-out 仅 0.42 —— 若头学了位置应为 1.00。
+4. 论文侧建议: §5.6 声明 numeric 配置口径(或直接改引 de-num 数字,数值相同)、可选把
+   NUM-ONLY 作为披露性对照;代码侧可把 crossmodal_eval CONFIGS 的 FULL 改默认 no-num,
+   或生成器打乱 cell 顺序绝后患。本 log 为异机复核,如需入正式证据树建议箱上等价重跑归档。
+DENUM_CHECK_DONE

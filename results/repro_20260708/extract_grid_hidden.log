@@ -1,0 +1,21 @@
+device=cuda dtype=torch.bfloat16 model=Qwen2.5-VL-3B-Instruct
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights: 100%|██████████| 824/824 [00:00<00:00, 8340.69it/s]
+loaded in 3s
+[probe] vis_feat=(2048,) txt_feat=(2048,) grid_thw=[[1, 6, 26]]
+  50/720  (0.06s/row)
+  100/720  (0.05s/row)
+  150/720  (0.05s/row)
+  200/720  (0.05s/row)
+  250/720  (0.05s/row)
+  300/720  (0.05s/row)
+  350/720  (0.05s/row)
+  400/720  (0.05s/row)
+  450/720  (0.05s/row)
+  500/720  (0.05s/row)
+  550/720  (0.05s/row)
+  600/720  (0.05s/row)
+  650/720  (0.05s/row)
+  700/720  (0.05s/row)
+  720/720  (0.05s/row)
+saved 720 feats -> gphi_data_crossmodal/feats_hidden.pt
+EXTRACT_DONE

@@ -1,0 +1,16 @@
+data=gphi_data_realistic_cm rows=400 pos=200 modes=['crossmodal'] model=Qwen2.5-VL-3B-Instruct
+  crop=rcm_04_09_e2.png size=(332, 92) label=0
+  crop=rcm_01_13_e1.png size=(332, 92) label=1
+  crop=rcm_16_10_e1.png size=(332, 92) label=1
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   5%|▍         | 41/824 [00:00<00:02, 380.55it/s]Loading weights:  10%|▉         | 80/824 [00:00<00:02, 366.74it/s]Loading weights:  14%|█▍        | 117/824 [00:00<00:02, 340.49it/s]Loading weights:  18%|█▊        | 152/824 [00:00<00:02, 332.61it/s]Loading weights:  23%|██▎       | 186/824 [00:00<00:01, 324.40it/s]Loading weights:  27%|██▋       | 219/824 [00:00<00:01, 324.70it/s]Loading weights:  31%|███       | 256/824 [00:00<00:01, 332.64it/s]Loading weights:  35%|███▌      | 291/824 [00:00<00:01, 330.41it/s]Loading weights:  39%|███▉      | 325/824 [00:00<00:01, 331.36it/s]Loading weights:  44%|████▎     | 359/824 [00:01<00:01, 320.83it/s]Loading weights:  48%|████▊     | 392/824 [00:01<00:01, 316.05it/s]Loading weights:  52%|█████▏    | 425/824 [00:01<00:01, 311.45it/s]Loading weights:  66%|██████▌   | 544/824 [00:01<00:00, 558.60it/s]Loading weights:  81%|████████▏ | 670/824 [00:01<00:00, 756.90it/s]Loading weights:  95%|█████████▌| 786/824 [00:01<00:00, 869.65it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 497.22it/s]
+  [crossmodal] 50/400
+  [crossmodal] 100/400
+  [crossmodal] 150/400
+  [crossmodal] 200/400
+  [crossmodal] 250/400
+  [crossmodal] 300/400
+  [crossmodal] 350/400
+  [crossmodal] 400/400
+
+[PROMPTED-VLM crossmodal]  n=400 pos=200  recall=0.87 FPR=0.60 prec=0.59 acc=0.63
+PROMPTED_DONE

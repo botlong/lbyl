@@ -1,0 +1,19 @@
+85:loaded 1840 elements, vis_dim=1024 txt_dim=3584, mismatch=840, NO_NUMERIC=True
+162:=== LOTO average ===  heuristic recall=0.83 FPR=0.21  |  LEARNED recall=0.76 FPR=0.16
+163:TRAIN_GPHI_DONE
+165:loaded 1840 elements, vis_dim=1024 txt_dim=3584, mismatch=840, NO_NUMERIC=False
+242:=== LOTO average ===  heuristic recall=0.83 FPR=0.21  |  LEARNED recall=0.78 FPR=0.18
+243:TRAIN_GPHI_DONE
+246:loaded 1344 crossmodal elements (mismatch=672 / match=672), vis_dim=1024 txt_dim=3584
+248:========== split=RANDOM-70/30 (unseen paraphrase/layout)  (train=940, test=404, test mismatch=202) ==========
+249:  channel           recall     FPR     acc   (chance acc≈0.50)
+250:  FULL  (vis+txt)    1.00    0.00    1.00
+251:  ARIA-ONLY         0.53    0.53    0.50
+252:  PIXEL-ONLY        0.43    0.43    0.50
+254:========== split=HOLDOUT ['disguised_decline', 'fake_close_ad', 'inverted_consent_toggle']  (train=1056, test=288, test mismatch=144) ==========
+255:  channel           recall     FPR     acc   (chance acc≈0.50)
+256:  FULL  (vis+txt)    0.50    0.67    0.42
+257:  ARIA-ONLY         0.33    0.33    0.50
+258:  PIXEL-ONLY        0.00    0.00    0.50
+260:CROSSMODAL_EVAL_DONE
+261:R4_DONE_OK Fri Jul  3 16:19:06 CST 2026

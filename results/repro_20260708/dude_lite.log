@@ -1,0 +1,105 @@
+############ Regime A: CONTRADICTION (realistic_cm) ############
+==== DUDE-lite (screenshot-only) + generic visual, balanced 400 ====
+data=gphi_data_realistic_cm rows=400 pos=200 modes=['dude', 'visual'] model=Qwen2.5-VL-3B-Instruct
+  crop=rcm_04_09_e2.png size=(332, 92) label=0
+  crop=rcm_01_13_e1.png size=(332, 92) label=1
+  crop=rcm_16_10_e1.png size=(332, 92) label=1
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   5%|▍         | 41/824 [00:00<00:02, 380.92it/s]Loading weights:  10%|▉         | 80/824 [00:00<00:02, 361.54it/s]Loading weights:  14%|█▍        | 117/824 [00:00<00:02, 343.32it/s]Loading weights:  18%|█▊        | 152/824 [00:00<00:02, 335.92it/s]Loading weights:  23%|██▎       | 186/824 [00:00<00:01, 328.20it/s]Loading weights:  27%|██▋       | 220/824 [00:00<00:01, 323.41it/s]Loading weights:  31%|███       | 256/824 [00:00<00:01, 333.47it/s]Loading weights:  35%|███▌      | 291/824 [00:00<00:01, 333.10it/s]Loading weights:  39%|███▉      | 325/824 [00:00<00:01, 334.81it/s]Loading weights:  44%|████▎     | 359/824 [00:01<00:01, 325.56it/s]Loading weights:  48%|████▊     | 392/824 [00:01<00:01, 322.85it/s]Loading weights:  52%|█████▏    | 425/824 [00:01<00:01, 308.59it/s]Loading weights:  67%|██████▋   | 556/824 [00:01<00:00, 592.44it/s]Loading weights:  82%|████████▏ | 672/824 [00:01<00:00, 754.59it/s]Loading weights:  98%|█████████▊| 804/824 [00:01<00:00, 916.32it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 505.77it/s]
+  [dude] 50/400
+  [dude] 100/400
+  [dude] 150/400
+  [dude] 200/400
+  [dude] 250/400
+  [dude] 300/400
+  [dude] 350/400
+  [dude] 400/400
+
+[PROMPTED-VLM dude]  n=400 pos=200  recall=0.88 FPR=0.90 prec=0.49 acc=0.49
+  [visual] 50/400
+  [visual] 100/400
+  [visual] 150/400
+  [visual] 200/400
+  [visual] 250/400
+  [visual] 300/400
+  [visual] 350/400
+  [visual] 400/400
+
+[PROMPTED-VLM visual]  n=400 pos=200  recall=0.12 FPR=0.10 prec=0.52 acc=0.51
+PROMPTED_DONE
+==== g_phi learned head (crossmodal_eval: RANDOM + HOLDOUT) ====
+feats=feats.pt txt_mode=embed
+loaded 1344 crossmodal elements (mismatch=672 / match=672), vis_dim=2048 txt_dim=2048
+
+========== split=RANDOM-70/30 (unseen paraphrase/layout)  (train=940, test=404, test mismatch=202) ==========
+  channel           recall     FPR     acc   (chance acc≈0.50)
+  FULL  (vis+txt)    1.00    0.00    1.00
+  ARIA-ONLY         0.42    0.42    0.50
+  PIXEL-ONLY        0.06    0.06    0.50
+
+========== split=HOLDOUT ['allow_notif', 'download_ad', 'subscribe']  (train=1344, test=0, test mismatch=0) ==========
+  channel           recall     FPR     acc   (chance acc≈0.50)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/lbyl/m0/crossmodal_eval.py", line 98, in <module>
+    main()
+  File "/root/autodl-tmp/lbyl/m0/crossmodal_eval.py", line 93, in main
+    run_split(f"HOLDOUT {sorted(HOLDOUT_CONCEPTS)}", tr, te, vd, td, feats)
+  File "/root/autodl-tmp/lbyl/m0/crossmodal_eval.py", line 70, in run_split
+    M = evaluate_rows(m, te, feats)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/lbyl/m0/crossmodal_eval.py", line 49, in evaluate_rows
+    vis, txt, num, y = train_gphi.tensors(rows, feats)   # honors ZERO_VIS/ZERO_TXT/NO_NUM
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/lbyl/m0/train_gphi.py", line 42, in tensors
+    vis = torch.stack([feats[r["crop"]]["vis"] for r in rows])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: stack expects a non-empty TensorList
+
+############ Regime B: SALIENT/CONSISTENT (susbench) ############
+==== DUDE-lite (screenshot-only) + generic visual, all 169 ====
+data=gphi_data_susbench rows=0 pos=0 modes=['dude', 'visual'] model=Qwen2.5-VL-3B-Instruct
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   5%|▍         | 39/824 [00:00<00:02, 354.73it/s]Loading weights:   9%|▉         | 75/824 [00:00<00:02, 322.09it/s]Loading weights:  13%|█▎        | 108/824 [00:00<00:02, 291.26it/s]Loading weights:  17%|█▋        | 138/824 [00:00<00:02, 286.36it/s]Loading weights:  20%|██        | 167/824 [00:00<00:02, 287.04it/s]Loading weights:  24%|██▍       | 196/824 [00:00<00:02, 278.91it/s]Loading weights:  28%|██▊       | 231/824 [00:00<00:01, 297.06it/s]Loading weights:  32%|███▏      | 267/824 [00:00<00:01, 310.42it/s]Loading weights:  37%|███▋      | 302/824 [00:00<00:01, 322.16it/s]Loading weights:  41%|████      | 335/824 [00:01<00:01, 317.20it/s]Loading weights:  45%|████▍     | 367/824 [00:01<00:01, 311.20it/s]Loading weights:  49%|████▊     | 401/824 [00:01<00:01, 310.57it/s]Loading weights:  54%|█████▍    | 444/824 [00:01<00:01, 343.67it/s]Loading weights:  68%|██████▊   | 562/824 [00:01<00:00, 585.40it/s]Loading weights:  82%|████████▏ | 678/824 [00:01<00:00, 753.30it/s]Loading weights:  96%|█████████▌| 793/824 [00:01<00:00, 868.63it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 470.48it/s]
+
+[PROMPTED-VLM dude]  n=0 pos=0  recall=0.00 FPR=0.00 prec=0.00 acc=0.00
+
+[PROMPTED-VLM visual]  n=0 pos=0  recall=0.00 FPR=0.00 prec=0.00 acc=0.00
+PROMPTED_DONE
+==== g_phi zero-shot on susbench per dp_class (susbench_eval) ====
+feature provenance OK: model=/root/autodl-tmp/models/Qwen2.5-VL-3B-Instruct txt_mode=embed
+train=1344 (realistic_cm)  threads=64 epochs=120
+test sets: gphi_data_susbench(n=169), gphi_data_susbench_dest(n=169)
+test by class: {'action_mismatch': 3, 'visual': 131, 'linguistic': 35}
+
+############## channel = FULL   (trained in 17s) ##############
+  [gphi_data_susbench]   class               n  flag_rate  recall(decep)
+              action_mismatch     3       1.00           1.00
+              linguistic         35       0.89           0.88
+              visual            131       0.85           0.96
+              [heuristic flag_rate] action_mismatch=0.00  linguistic=0.00  visual=0.00
+  [gphi_data_susbench_dest]   class               n  flag_rate  recall(decep)
+              action_mismatch     3       0.67           0.67
+              linguistic         35       0.49           0.50
+              visual            131       0.44           0.52
+              [heuristic flag_rate] action_mismatch=0.00  linguistic=0.00  visual=0.00
+
+############## channel = ARIA-ONLY(zero vis)   (trained in 16s) ##############
+  [gphi_data_susbench]   class               n  flag_rate  recall(decep)
+              action_mismatch     3       1.00           1.00
+              linguistic         35       1.00           1.00
+              visual            131       0.91           0.99
+  [gphi_data_susbench_dest]   class               n  flag_rate  recall(decep)
+              action_mismatch     3       1.00           1.00
+              linguistic         35       0.69           0.54
+              visual            131       0.79           0.71
+
+############## channel = PIXEL-ONLY(zero txt)   (trained in 18s) ##############
+  [gphi_data_susbench]   class               n  flag_rate  recall(decep)
+              action_mismatch     3       0.00           0.00
+              linguistic         35       0.03           0.04
+              visual            131       0.02           0.01
+  [gphi_data_susbench_dest]   class               n  flag_rate  recall(decep)
+              action_mismatch     3       0.00           0.00
+              linguistic         35       0.03           0.04
+              visual            131       0.02           0.01
+
+SUSBENCH_EVAL_DONE
+ALL_DUDE_LITE_DONE
