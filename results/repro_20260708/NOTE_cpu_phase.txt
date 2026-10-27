@@ -1,0 +1,1 @@
+stopped for GPU-phase rerun (CPU pace ~30min/head impractical; see repro_20260708/NOTE)

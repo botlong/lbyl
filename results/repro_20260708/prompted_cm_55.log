@@ -1,0 +1,16 @@
+data=gphi_data_55 rows=400 pos=200 modes=['crossmodal'] model=Qwen2.5-VL-3B-Instruct
+  crop=inverted_consent_toggle_L1_04_e0.png size=(172, 61) label=1
+  crop=transparent_overlay_L1_10_e1.png size=(572, 74) label=1
+  crop=bait_play_button_L2_17_e1.png size=(220, 70) label=0
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   5%|▍         | 41/824 [00:00<00:02, 376.41it/s]Loading weights:  10%|▉         | 79/824 [00:00<00:02, 352.89it/s]Loading weights:  14%|█▍        | 115/824 [00:00<00:02, 341.51it/s]Loading weights:  18%|█▊        | 150/824 [00:00<00:02, 329.38it/s]Loading weights:  22%|██▏       | 185/824 [00:00<00:01, 328.70it/s]Loading weights:  27%|██▋       | 221/824 [00:00<00:01, 328.61it/s]Loading weights:  31%|███       | 255/824 [00:00<00:01, 322.66it/s]Loading weights:  35%|███▌      | 292/824 [00:00<00:01, 325.21it/s]Loading weights:  39%|███▉      | 325/824 [00:00<00:01, 325.92it/s]Loading weights:  43%|████▎     | 358/824 [00:01<00:01, 322.43it/s]Loading weights:  47%|████▋     | 391/824 [00:01<00:01, 312.66it/s]Loading weights:  51%|█████▏    | 424/824 [00:01<00:01, 315.58it/s]Loading weights:  65%|██████▍   | 535/824 [00:01<00:00, 545.53it/s]Loading weights:  80%|████████  | 660/824 [00:01<00:00, 746.37it/s]Loading weights:  94%|█████████▍| 778/824 [00:01<00:00, 870.02it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 497.29it/s]
+  [crossmodal] 50/400
+  [crossmodal] 100/400
+  [crossmodal] 150/400
+  [crossmodal] 200/400
+  [crossmodal] 250/400
+  [crossmodal] 300/400
+  [crossmodal] 350/400
+  [crossmodal] 400/400
+
+[PROMPTED-VLM crossmodal]  n=400 pos=200  recall=0.54 FPR=0.69 prec=0.44 acc=0.42
+PROMPTED_DONE

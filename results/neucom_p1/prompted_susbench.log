@@ -1,0 +1,10 @@
+data=gphi_data_susbench rows=169 pos=96 modes=['dude'] model=Qwen2.5-VL-3B-Instruct
+  crop=amz_disguised_e0.png size=(772, 91) label=1
+  crop=amz_false_hierarchy_e0.png size=(91, 43) label=0
+  crop=amz_false_hierarchy_e1.png size=(175, 46) label=1
+  [dude] 50/169
+  [dude] 100/169
+  [dude] 150/169
+
+[PROMPTED-VLM dude]  n=169 pos=96  recall=0.79 FPR=0.96 prec=0.52 acc=0.47
+PROMPTED_DONE

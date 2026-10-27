@@ -1,0 +1,64 @@
+### sus
+feature provenance OK: model=/root/lbyl-neucom/models/Qwen2.5-VL-3B-Instruct txt_mode=embed
+train=4480 (gphi_data_realistic_v2)  threads=24 epochs=200
+test sets: gphi_data_susbench(n=169), gphi_data_susbench_rawaria(n=169), gphi_data_susbench_dest(n=169)
+test by class: {'action_mismatch': 3, 'visual': 131, 'linguistic': 35}
+  [gphi_data_susbench] structural string differs from visible text on 11/169 controls: visual|''->'Close'; visual|'×'->'Close'; visual|'×'->''; visual|''->'Close'; visual|'×'->'Close'; visual|'×'->''; visual|'×'->'Close'; visual|'×'->''; visual|'×'->'Close'; visual|'Keep me updated so I don’t mis'->'Keep me updated so I don’t miss out on D'; visual|'Notify me so I never miss Nord'->'Notify me so I never miss Nordstrom’s ex'
+  [gphi_data_susbench_rawaria] structural string differs from visible text on 166/169 controls: action_mismatch|'ADD TO CART'->''; visual|'No Thanks'->''; visual|'Yes, add protection'->''; visual|'×'->''; linguistic|'I want no notifications'->''; linguistic|'I do not want no notifications'->''; visual|'I would rather miss out on gre'->''; visual|'Allow'->''; visual|'Yes, Add Protection'->''; visual|'No thanks'->''; visual|''->'Close'; visual|'Add plan - $9.99'->''; visual|'No, thanks'->''; visual|'×'->'Close'; visual|'Add to Cart'->''; linguistic|'I do not want no notifications'->''; linguistic|'I want no notifications'->''; visual|'Yes, please'->''; visual|'No, I’d rather miss out on sav'->''; visual|'Add protection'->''; visual|'No thanks'->''; action_mismatch|'ADD TO CART'->''; visual|'Add to Cart'->''; linguistic|"I don't want notifications"->''; linguistic|"I don't want no notifications"->''; visual|'No, I’d rather miss important '->''; visual|'Yes'->''; visual|'×'->''; visual|'Add Protection'->''; visual|'No, thanks'->''; visual|'Book a Deal'->''; visual|''->'Close'; linguistic|'I don’t want to miss promotion'->''; linguistic|'I don’t want to receive promot'->''; visual|'Yes, protect my trip with full'->''; visual|'No, I’ll risk unexpected costs'->''; visual|'Add Insurance'->''; visual|'No, thanks'->''; visual|'Continue'->''; visual|'Preorder'->''
+  [gphi_data_susbench_dest] structural string differs from visible text on 49/169 controls: action_mismatch|'ADD TO CART'->'navigate to www.amazon.com'; visual|'×'->'close dialog'; visual|'×'->'close dialog'; visual|'Add to Cart'->'close dialog'; visual|'Add protection'->'close dialog'; visual|'No thanks'->'close dialog'; action_mismatch|'ADD TO CART'->'navigate to /'; visual|'Add to Cart'->'close dialog'; visual|'Add Protection'->'close dialog'; linguistic|'I don’t want to receive promot'->'I don’t want to receive promotional emai'; visual|'Yes, protect my trip with full'->'close dialog'; visual|'No, I’ll risk unexpected costs'->'close dialog'; linguistic|'I don’t want to avoid missing '->'I don’t want to avoid missing promotiona'; visual|"No, I don't need the informati"->"No, I don't need the information of the "; visual|"Alright, the world's changes h"->"Alright, the world's changes have nothin"; visual|'Yes, keep my discount'->'close dialog'; visual|'No, I’ll pay full price'->'close dialog'; visual|'Join Insurance'->'close dialog'; visual|'No, thanks'->'close dialog'; visual|'Create account'->'close dialog'; visual|'Continue as guest'->'close dialog'; visual|'Yes, Add Protection for $6.99'->'close dialog'; visual|'No, thanks'->'close dialog'; linguistic|'I don’t want the season end wi'->'close dialog'; linguistic|'I want no email reminders abou'->'close dialog'; visual|'Get the Steam App for instant '->'Get the Steam App for instant access to '; visual|'Download the App'->'close dialog'; visual|'Continue on Web'->'close dialog'; linguistic|'I don’t want to not complete m'->'I don’t want to not complete my purchase'; linguistic|'I prefer delaying and possibly'->'I prefer delaying and possibly losing my'; visual|'I want access to exclusive gam'->'close dialog'; visual|'I’m fine missing out on free m'->'close dialog'; visual|'I would rather miss promotion '->'I would rather miss promotion and waste '; visual|'Sign in'->'close dialog'; visual|'Not now'->'close dialog'; visual|'Accept only key cookies'->'close dialog'; visual|'Accept all cookies'->'close dialog'; visual|'Keep me updated so I don’t mis'->'close dialog'; visual|'I’d rather risk missing Dell’s'->'close dialog'; visual|'Notify me so I never miss Nord'->'close dialog'
+
+############## channel = FULL   (8 seeds, trained in 1482s) ##############
+  [gphi_data_susbench]   class               n        flag_rate    recall(decep)
+              action_mismatch     3     0.17 +- 0.21     0.17 +- 0.21
+              linguistic         35     0.39 +- 0.07     0.44 +- 0.09
+              visual            131     0.34 +- 0.08     0.35 +- 0.03
+              name!=visible      11     0.47 +- 0.24     0.31 +- 0.31
+              [heuristic flag_rate] action_mismatch=0.00  linguistic=0.00  visual=0.00  name!=visible=0.00
+  [gphi_data_susbench_rawaria]   class               n        flag_rate    recall(decep)
+              action_mismatch     3     0.54 +- 0.33     0.54 +- 0.33
+              linguistic         35     0.35 +- 0.18     0.35 +- 0.20
+              visual            131     0.42 +- 0.18     0.51 +- 0.22
+              name!=visible     166     0.41 +- 0.18     0.49 +- 0.21
+              [heuristic flag_rate] action_mismatch=0.00  linguistic=0.00  visual=0.00  name!=visible=0.00
+  [gphi_data_susbench_dest]   class               n        flag_rate    recall(decep)
+              action_mismatch     3     0.17 +- 0.21     0.17 +- 0.21
+              linguistic         35     0.42 +- 0.05     0.45 +- 0.08
+              visual            131     0.43 +- 0.06     0.43 +- 0.03
+              name!=visible      49     0.51 +- 0.09     0.57 +- 0.09
+              [heuristic flag_rate] action_mismatch=0.00  linguistic=0.00  visual=0.00  name!=visible=0.00
+
+############## channel = ARIA-ONLY(zero vis)   (8 seeds, trained in 1487s) ##############
+  [gphi_data_susbench]   class               n        flag_rate    recall(decep)
+              action_mismatch     3     0.67 +- 0.36     0.67 +- 0.36
+              linguistic         35     0.65 +- 0.16     0.60 +- 0.15
+              visual            131     0.55 +- 0.15     0.52 +- 0.17
+              name!=visible      11     0.40 +- 0.25     0.88 +- 0.30
+  [gphi_data_susbench_rawaria]   class               n        flag_rate    recall(decep)
+              action_mismatch     3     0.88 +- 0.30     0.88 +- 0.30
+              linguistic         35     0.88 +- 0.30     0.88 +- 0.30
+              visual            131     0.80 +- 0.23     0.84 +- 0.26
+              name!=visible     166     0.83 +- 0.26     0.87 +- 0.29
+  [gphi_data_susbench_dest]   class               n        flag_rate    recall(decep)
+              action_mismatch     3     0.67 +- 0.30     0.67 +- 0.30
+              linguistic         35     0.64 +- 0.16     0.58 +- 0.15
+              visual            131     0.56 +- 0.20     0.52 +- 0.23
+              name!=visible      49     0.57 +- 0.34     0.55 +- 0.36
+
+############## channel = PIXEL-ONLY(zero txt)   (8 seeds, trained in 1492s) ##############
+  [gphi_data_susbench]   class               n        flag_rate    recall(decep)
+              action_mismatch     3     0.25 +- 0.39     0.25 +- 0.39
+              linguistic         35     0.26 +- 0.38     0.25 +- 0.39
+              visual            131     0.25 +- 0.38     0.25 +- 0.38
+              name!=visible      11     0.25 +- 0.39     0.25 +- 0.39
+  [gphi_data_susbench_rawaria]   class               n        flag_rate    recall(decep)
+              action_mismatch     3     0.25 +- 0.39     0.25 +- 0.39
+              linguistic         35     0.26 +- 0.38     0.25 +- 0.39
+              visual            131     0.25 +- 0.38     0.25 +- 0.38
+              name!=visible     166     0.25 +- 0.38     0.25 +- 0.38
+  [gphi_data_susbench_dest]   class               n        flag_rate    recall(decep)
+              action_mismatch     3     0.25 +- 0.39     0.25 +- 0.39
+              linguistic         35     0.26 +- 0.38     0.25 +- 0.39
+              visual            131     0.25 +- 0.38     0.25 +- 0.38
+              name!=visible      49     0.26 +- 0.38     0.25 +- 0.39
+
+SUSBENCH_EVAL_DONE

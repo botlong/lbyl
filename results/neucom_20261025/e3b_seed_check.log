@@ -1,0 +1,4 @@
+disguised_decline: max|p_seed0-p_seed1|=0.0015 max|p0-p2|=0.0110 decision flips s0 vs s1=0/60 p range seed0=[0.000,0.999]
+transparent_overlay: max|p_seed0-p_seed1|=0.0000 max|p0-p2|=0.0070 decision flips s0 vs s1=0/60 p range seed0=[0.000,1.000]
+fake_close_ad: max|p_seed0-p_seed1|=0.0041 max|p0-p2|=0.0004 decision flips s0 vs s1=0/60 p range seed0=[0.000,0.000]
+SEED_CHECK_DONE

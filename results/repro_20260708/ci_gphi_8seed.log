@@ -1,0 +1,12 @@
+CI over 8 seeds  data=gphi_data_55 n=1840 NO_NUM=True  (mismatch=840)
+  seed0: LOTO recall=0.976 FPR=0.076
+  seed1: LOTO recall=0.833 FPR=0.095
+  seed2: LOTO recall=0.929 FPR=0.133
+  seed3: LOTO recall=0.905 FPR=0.000
+  seed4: LOTO recall=0.952 FPR=0.052
+  seed5: LOTO recall=0.929 FPR=0.071
+  seed6: LOTO recall=0.929 FPR=0.095
+  seed7: LOTO recall=0.857 FPR=0.052
+
+=== LOTO (de-numeric, 8 seeds): recall 0.914 ± 0.033   FPR 0.072 ± 0.027   (mean ± 95% CI) ===
+CI_DONE

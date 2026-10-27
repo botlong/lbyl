@@ -1,0 +1,21 @@
+### grid
+data=/root/lbyl-neucom/m0/gphi_data_crossmodal feats=feats.pt txt_mode=embed struct=ax_name+ax_role
+loaded 720 elements (mismatch=360 / match=360), distinct inputs=396, vis_dim=2048 txt_dim=2048
+
+========== split=pair-disjoint 70/30 (unseen visible/name pairs)  (train=501, test=219, test mismatch=109, test inputs also in train=0) ==========
+  channel                        acc         recall            FPR   (chance acc 0.50; 8 seeds)
+  FULL (vis+txt+num)   0.47 +- 0.01   0.93 +- 0.02   1.00 +- 0.00   per-seed acc [0.484, 0.47, 0.447, 0.461, 0.457, 0.475, 0.466, 0.461]
+  FULL, no numeric     0.46 +- 0.01   0.93 +- 0.01   1.00 +- 0.00   per-seed acc [0.475, 0.461, 0.466, 0.452, 0.466, 0.47, 0.457, 0.461]
+  ARIA-ONLY            0.13 +- 0.00   0.27 +- 0.00   1.00 +- 0.00   per-seed acc [0.132, 0.132, 0.132, 0.132, 0.132, 0.132, 0.132, 0.132]
+  PIXEL-ONLY           0.50 +- 0.00   0.60 +- 0.31   0.60 +- 0.31   per-seed acc [0.498, 0.498, 0.498, 0.498, 0.498, 0.498, 0.498, 0.498]
+  NUM-ONLY             0.59 +- 0.00   0.46 +- 0.00   0.27 +- 0.00   per-seed acc [0.594, 0.594, 0.594, 0.594, 0.594, 0.594, 0.594, 0.594]
+
+========== split=held-out concepts ['allow_notif', 'download_ad', 'subscribe']  (train=467, test=253, test mismatch=163, test inputs also in train=0) ==========
+  channel                        acc         recall            FPR   (chance acc 0.50; 8 seeds)
+  FULL (vis+txt+num)   0.63 +- 0.02   0.92 +- 0.03   0.89 +- 0.05   per-seed acc [0.617, 0.636, 0.613, 0.668, 0.632, 0.656, 0.593, 0.64]
+  FULL, no numeric     0.63 +- 0.01   0.90 +- 0.03   0.88 +- 0.03   per-seed acc [0.628, 0.609, 0.625, 0.644, 0.617, 0.648, 0.632, 0.601]
+  ARIA-ONLY            0.43 +- 0.01   0.14 +- 0.03   0.06 +- 0.05   per-seed acc [0.419, 0.443, 0.419, 0.419, 0.431, 0.419, 0.431, 0.431]
+  PIXEL-ONLY           0.42 +- 0.01   0.50 +- 0.15   0.71 +- 0.26   per-seed acc [0.431, 0.419, 0.419, 0.455, 0.419, 0.419, 0.419, 0.419]
+  NUM-ONLY             0.58 +- 0.00   0.53 +- 0.00   0.33 +- 0.00   per-seed acc [0.581, 0.581, 0.581, 0.581, 0.581, 0.581, 0.581, 0.581]
+
+CROSSMODAL_EVAL_DONE

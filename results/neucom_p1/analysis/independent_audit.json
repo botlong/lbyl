@@ -1,0 +1,3182 @@
+{
+  "datasets": {
+    "gphi_data_55": {
+      "n": 1840,
+      "positive": 840,
+      "unique_pairs": 192,
+      "conflicting_pairs": 0,
+      "missing_features": [],
+      "nonfinite": [],
+      "missing_crops": [],
+      "raw_nonempty": 1620,
+      "computed_nonempty": 1780,
+      "name_equals_visible_exact": 160,
+      "name_equals_visible_casefold": 160,
+      "metadata_sha256": "93abae689d674d255141bb4120445c8af8da1201a6c3f0d62c8f92c8db727188",
+      "features_sha256": "a3c38ffb026d5935ffb20bb25442da7c4fa86f8302452cf1831cdaccb496111c",
+      "model": "/root/lbyl-neucom/models/Qwen2.5-VL-3B-Instruct",
+      "struct": "ax_name+ax_role"
+    },
+    "gphi_data": {
+      "n": 620,
+      "positive": 280,
+      "unique_pairs": 67,
+      "conflicting_pairs": 0,
+      "missing_features": [],
+      "nonfinite": [],
+      "missing_crops": [],
+      "raw_nonempty": 540,
+      "computed_nonempty": 600,
+      "name_equals_visible_exact": 60,
+      "name_equals_visible_casefold": 60,
+      "metadata_sha256": "a6aa5b9b49e4e9df2c337f8b073c9f5223dbf0e11b3f7c9ee3e130ed1192aa3d",
+      "features_sha256": "1cddcf4bd484c992e88f40bdebc27923901d49fa4a82351a9effccbd3a373020",
+      "model": "/root/lbyl-neucom/models/Qwen2.5-VL-3B-Instruct",
+      "struct": "ax_name+ax_role"
+    },
+    "gphi_data_realistic_v2": {
+      "n": 4480,
+      "positive": 2240,
+      "unique_pairs": 4277,
+      "conflicting_pairs": 0,
+      "missing_features": [],
+      "nonfinite": [],
+      "missing_crops": [],
+      "raw_nonempty": 4480,
+      "computed_nonempty": 4480,
+      "name_equals_visible_exact": 0,
+      "name_equals_visible_casefold": 0,
+      "metadata_sha256": "4704ffab7d2f34e91b2f1f06be9e9ba228e7e7b80ed8ffafdbcd78902ced8621",
+      "features_sha256": "6672494d51f75a7c612b7bce0df01b3f41368c43e84b57d4a37d6318022fcdd1",
+      "model": "/root/lbyl-neucom/models/Qwen2.5-VL-3B-Instruct",
+      "struct": "ax_name+ax_role"
+    },
+    "gphi_data_crossmodal": {
+      "n": 720,
+      "positive": 360,
+      "unique_pairs": 396,
+      "conflicting_pairs": 0,
+      "missing_features": [],
+      "nonfinite": [],
+      "missing_crops": [],
+      "raw_nonempty": 720,
+      "computed_nonempty": 720,
+      "name_equals_visible_exact": 0,
+      "name_equals_visible_casefold": 0,
+      "metadata_sha256": "2b9da574b023486c5ee7f6a4f904e390c4c64d5b5a47580c6345952012282c1b",
+      "features_sha256": "28b246ff9f17cdc73ffc3abbd1f2f802b34411dc1cd14acf62b41514cf6cae86",
+      "model": "/root/lbyl-neucom/models/Qwen2.5-VL-3B-Instruct",
+      "struct": "ax_name+ax_role"
+    },
+    "gphi_data_class2": {
+      "n": 1008,
+      "positive": 672,
+      "unique_pairs": 392,
+      "conflicting_pairs": 0,
+      "missing_features": [],
+      "nonfinite": [],
+      "missing_crops": [],
+      "raw_nonempty": 1008,
+      "computed_nonempty": 1008,
+      "name_equals_visible_exact": 0,
+      "name_equals_visible_casefold": 0,
+      "metadata_sha256": "f6bcd40ae26fb2d09d97e3a3c76a03183d9a1ab957447007e57d511ce5f83dd2",
+      "features_sha256": "cd909ecabbc3931f59b25577386a03965b8413041fab5c4326971985c613eff4",
+      "model": "/root/lbyl-neucom/models/Qwen2.5-VL-3B-Instruct",
+      "struct": "ax_name+ax_role"
+    },
+    "gphi_data_susbench": {
+      "n": 169,
+      "positive": 96,
+      "unique_pairs": 168,
+      "conflicting_pairs": 0,
+      "missing_features": [],
+      "nonfinite": [],
+      "missing_crops": [],
+      "raw_nonempty": 9,
+      "computed_nonempty": 166,
+      "name_equals_visible_exact": 156,
+      "name_equals_visible_casefold": 158,
+      "metadata_sha256": "f367918f65223e6693217743dd196323cd6755eeebbe42c2bca1b452c70fef1d",
+      "features_sha256": "5a9fb433b029695504ff3f83da32fb133a2b78788a40949009683f702a08e0b7",
+      "model": "/root/lbyl-neucom/models/Qwen2.5-VL-3B-Instruct",
+      "struct": "ax_name+ax_role"
+    },
+    "gphi_data_susbench_rawaria": {
+      "n": 169,
+      "positive": 96,
+      "unique_pairs": 168,
+      "conflicting_pairs": 0,
+      "missing_features": [],
+      "nonfinite": [],
+      "missing_crops": [],
+      "raw_nonempty": 9,
+      "computed_nonempty": 9,
+      "name_equals_visible_exact": 1,
+      "name_equals_visible_casefold": 3,
+      "metadata_sha256": "627a9f9e502c93ca1931c8d13b8529b4b74323091b610b71344d58383aefc0d2",
+      "features_sha256": "1b97727ced7213eb0325ac365ca38e00084c48f9ad1493c949b16ddf9eafa009",
+      "model": "/root/lbyl-neucom/models/Qwen2.5-VL-3B-Instruct",
+      "struct": "ax_name+ax_role"
+    },
+    "gphi_data_susbench_dest": {
+      "n": 169,
+      "positive": 96,
+      "unique_pairs": 168,
+      "conflicting_pairs": 0,
+      "missing_features": [],
+      "nonfinite": [],
+      "missing_crops": [],
+      "raw_nonempty": 9,
+      "computed_nonempty": 167,
+      "name_equals_visible_exact": 120,
+      "name_equals_visible_casefold": 120,
+      "metadata_sha256": "83b2a26b9957b6ac8184c561cc7e2b9bf7ed81b40d52916e3694453148f78916",
+      "features_sha256": "ba44f0cef0d6a30899072bd33be801e39bf3c71eb2356b90be02ea4ecb512383",
+      "model": "/root/lbyl-neucom/models/Qwen2.5-VL-3B-Instruct",
+      "struct": "ax_name+ax_role"
+    }
+  },
+  "splits": {
+    "env_loto": {
+      "bait_play_button": 0,
+      "confirmshaming": 0,
+      "countdown_claim": 0,
+      "disguised_decline": 0,
+      "disguised_unsubscribe": 0,
+      "fake_captcha_allow": 0,
+      "fake_close_ad": 0,
+      "fake_system_update": 0,
+      "free_trial_paid": 0,
+      "inverted_consent_toggle": 0,
+      "misdirected_download": 0,
+      "preselected_addon": 0,
+      "sneak_into_basket": 0,
+      "transparent_overlay": 0
+    },
+    "env_level": 20,
+    "gphi_data_realistic_v2/feats.pt": {
+      "new-instance (unseen wording family AND unseen skin)": {
+        "train": 2688,
+        "test": 224,
+        "overlap": 0
+      },
+      "new-wording (unseen wording family, all skins)": {
+        "train": 3360,
+        "test": 1120,
+        "overlap": 0
+      },
+      "new-skin (unseen skin, all wording families)": {
+        "train": 3584,
+        "test": 896,
+        "overlap": 0
+      }
+    },
+    "gphi_data_realistic_v2/feats_hidden.pt": {
+      "new-instance (unseen wording family AND unseen skin)": {
+        "train": 2688,
+        "test": 224,
+        "overlap": 0
+      },
+      "new-wording (unseen wording family, all skins)": {
+        "train": 3360,
+        "test": 1120,
+        "overlap": 0
+      },
+      "new-skin (unseen skin, all wording families)": {
+        "train": 3584,
+        "test": 896,
+        "overlap": 0
+      }
+    },
+    "gphi_data_realistic_v2/feats_internvl.pt": {
+      "new-instance (unseen wording family AND unseen skin)": {
+        "train": 2688,
+        "test": 224,
+        "overlap": 0
+      },
+      "new-wording (unseen wording family, all skins)": {
+        "train": 3360,
+        "test": 1120,
+        "overlap": 0
+      },
+      "new-skin (unseen skin, all wording families)": {
+        "train": 3584,
+        "test": 896,
+        "overlap": 0
+      }
+    },
+    "sweep364_overlap": [
+      {
+        "held": [
+          "bait_play_button",
+          "confirmshaming",
+          "countdown_claim"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "confirmshaming",
+          "disguised_decline"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "confirmshaming",
+          "disguised_unsubscribe"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "confirmshaming",
+          "fake_captcha_allow"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "confirmshaming",
+          "fake_close_ad"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "confirmshaming",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "confirmshaming",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "confirmshaming",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "confirmshaming",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "confirmshaming",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "confirmshaming",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "confirmshaming",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "countdown_claim",
+          "disguised_decline"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "countdown_claim",
+          "disguised_unsubscribe"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "countdown_claim",
+          "fake_captcha_allow"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "countdown_claim",
+          "fake_close_ad"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "countdown_claim",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "countdown_claim",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "countdown_claim",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "countdown_claim",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "countdown_claim",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "countdown_claim",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "countdown_claim",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_decline",
+          "disguised_unsubscribe"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_decline",
+          "fake_captcha_allow"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_decline",
+          "fake_close_ad"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_decline",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_decline",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_decline",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_decline",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_decline",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_decline",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_decline",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_unsubscribe",
+          "fake_captcha_allow"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_unsubscribe",
+          "fake_close_ad"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_unsubscribe",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_unsubscribe",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_unsubscribe",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_unsubscribe",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_unsubscribe",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_unsubscribe",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "disguised_unsubscribe",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_captcha_allow",
+          "fake_close_ad"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_captcha_allow",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_captcha_allow",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_captcha_allow",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_captcha_allow",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_captcha_allow",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_captcha_allow",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_captcha_allow",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_close_ad",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_close_ad",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_close_ad",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_close_ad",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_close_ad",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_close_ad",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_close_ad",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_system_update",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_system_update",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_system_update",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_system_update",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_system_update",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "fake_system_update",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "free_trial_paid",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "free_trial_paid",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "free_trial_paid",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "free_trial_paid",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "free_trial_paid",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "inverted_consent_toggle",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "inverted_consent_toggle",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "inverted_consent_toggle",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "inverted_consent_toggle",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "misdirected_download",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "misdirected_download",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "misdirected_download",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "preselected_addon",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "preselected_addon",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "bait_play_button",
+          "sneak_into_basket",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "countdown_claim",
+          "disguised_decline"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "countdown_claim",
+          "disguised_unsubscribe"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "countdown_claim",
+          "fake_captcha_allow"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "countdown_claim",
+          "fake_close_ad"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "countdown_claim",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "countdown_claim",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "countdown_claim",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "countdown_claim",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "countdown_claim",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "countdown_claim",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "countdown_claim",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_decline",
+          "disguised_unsubscribe"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_decline",
+          "fake_captcha_allow"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_decline",
+          "fake_close_ad"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_decline",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_decline",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_decline",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_decline",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_decline",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_decline",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_decline",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_unsubscribe",
+          "fake_captcha_allow"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_unsubscribe",
+          "fake_close_ad"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_unsubscribe",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_unsubscribe",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_unsubscribe",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_unsubscribe",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_unsubscribe",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_unsubscribe",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "disguised_unsubscribe",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_captcha_allow",
+          "fake_close_ad"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_captcha_allow",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_captcha_allow",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_captcha_allow",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_captcha_allow",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_captcha_allow",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_captcha_allow",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_captcha_allow",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_close_ad",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_close_ad",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_close_ad",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_close_ad",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_close_ad",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_close_ad",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_close_ad",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_system_update",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_system_update",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_system_update",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_system_update",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_system_update",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "fake_system_update",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "free_trial_paid",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "free_trial_paid",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "free_trial_paid",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "free_trial_paid",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "free_trial_paid",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "inverted_consent_toggle",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "inverted_consent_toggle",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "inverted_consent_toggle",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "inverted_consent_toggle",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "misdirected_download",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "misdirected_download",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "misdirected_download",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "preselected_addon",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "preselected_addon",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "confirmshaming",
+          "sneak_into_basket",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_decline",
+          "disguised_unsubscribe"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_decline",
+          "fake_captcha_allow"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_decline",
+          "fake_close_ad"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_decline",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_decline",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_decline",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_decline",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_decline",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_decline",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_decline",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_unsubscribe",
+          "fake_captcha_allow"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_unsubscribe",
+          "fake_close_ad"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_unsubscribe",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_unsubscribe",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_unsubscribe",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_unsubscribe",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_unsubscribe",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_unsubscribe",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "disguised_unsubscribe",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_captcha_allow",
+          "fake_close_ad"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_captcha_allow",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_captcha_allow",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_captcha_allow",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_captcha_allow",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_captcha_allow",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_captcha_allow",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_captcha_allow",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_close_ad",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_close_ad",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_close_ad",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_close_ad",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_close_ad",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_close_ad",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_close_ad",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_system_update",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_system_update",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_system_update",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_system_update",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_system_update",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "fake_system_update",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "free_trial_paid",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "free_trial_paid",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "free_trial_paid",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "free_trial_paid",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "free_trial_paid",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "inverted_consent_toggle",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "inverted_consent_toggle",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "inverted_consent_toggle",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "inverted_consent_toggle",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "misdirected_download",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "misdirected_download",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "misdirected_download",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "preselected_addon",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "preselected_addon",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "countdown_claim",
+          "sneak_into_basket",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "disguised_unsubscribe",
+          "fake_captcha_allow"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "disguised_unsubscribe",
+          "fake_close_ad"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "disguised_unsubscribe",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "disguised_unsubscribe",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "disguised_unsubscribe",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "disguised_unsubscribe",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "disguised_unsubscribe",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "disguised_unsubscribe",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "disguised_unsubscribe",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_captcha_allow",
+          "fake_close_ad"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_captcha_allow",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_captcha_allow",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_captcha_allow",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_captcha_allow",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_captcha_allow",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_captcha_allow",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_captcha_allow",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_close_ad",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_close_ad",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_close_ad",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_close_ad",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_close_ad",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_close_ad",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_close_ad",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_system_update",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_system_update",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_system_update",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_system_update",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_system_update",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "fake_system_update",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "free_trial_paid",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "free_trial_paid",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "free_trial_paid",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "free_trial_paid",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "free_trial_paid",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "inverted_consent_toggle",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "inverted_consent_toggle",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "inverted_consent_toggle",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "inverted_consent_toggle",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "misdirected_download",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "misdirected_download",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "misdirected_download",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "preselected_addon",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "preselected_addon",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_decline",
+          "sneak_into_basket",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_captcha_allow",
+          "fake_close_ad"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_captcha_allow",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_captcha_allow",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_captcha_allow",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_captcha_allow",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_captcha_allow",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_captcha_allow",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_captcha_allow",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_close_ad",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_close_ad",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_close_ad",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_close_ad",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_close_ad",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_close_ad",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_close_ad",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_system_update",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_system_update",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_system_update",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_system_update",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_system_update",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "fake_system_update",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "free_trial_paid",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "free_trial_paid",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "free_trial_paid",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "free_trial_paid",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "free_trial_paid",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "inverted_consent_toggle",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "inverted_consent_toggle",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "inverted_consent_toggle",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "inverted_consent_toggle",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "misdirected_download",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "misdirected_download",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "misdirected_download",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "preselected_addon",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "preselected_addon",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "disguised_unsubscribe",
+          "sneak_into_basket",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "fake_close_ad",
+          "fake_system_update"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "fake_close_ad",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "fake_close_ad",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "fake_close_ad",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "fake_close_ad",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "fake_close_ad",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "fake_close_ad",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "fake_system_update",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "fake_system_update",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "fake_system_update",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "fake_system_update",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "fake_system_update",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "fake_system_update",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "free_trial_paid",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "free_trial_paid",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "free_trial_paid",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "free_trial_paid",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "free_trial_paid",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "inverted_consent_toggle",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "inverted_consent_toggle",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "inverted_consent_toggle",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "inverted_consent_toggle",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "misdirected_download",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "misdirected_download",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "misdirected_download",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "preselected_addon",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "preselected_addon",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_captcha_allow",
+          "sneak_into_basket",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "fake_system_update",
+          "free_trial_paid"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "fake_system_update",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "fake_system_update",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "fake_system_update",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "fake_system_update",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "fake_system_update",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "free_trial_paid",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "free_trial_paid",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "free_trial_paid",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "free_trial_paid",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "free_trial_paid",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "inverted_consent_toggle",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "inverted_consent_toggle",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "inverted_consent_toggle",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "inverted_consent_toggle",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "misdirected_download",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "misdirected_download",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "misdirected_download",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "preselected_addon",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "preselected_addon",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_close_ad",
+          "sneak_into_basket",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_system_update",
+          "free_trial_paid",
+          "inverted_consent_toggle"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_system_update",
+          "free_trial_paid",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_system_update",
+          "free_trial_paid",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_system_update",
+          "free_trial_paid",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_system_update",
+          "free_trial_paid",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_system_update",
+          "inverted_consent_toggle",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_system_update",
+          "inverted_consent_toggle",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_system_update",
+          "inverted_consent_toggle",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_system_update",
+          "inverted_consent_toggle",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_system_update",
+          "misdirected_download",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_system_update",
+          "misdirected_download",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_system_update",
+          "misdirected_download",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_system_update",
+          "preselected_addon",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_system_update",
+          "preselected_addon",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "fake_system_update",
+          "sneak_into_basket",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "free_trial_paid",
+          "inverted_consent_toggle",
+          "misdirected_download"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "free_trial_paid",
+          "inverted_consent_toggle",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "free_trial_paid",
+          "inverted_consent_toggle",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "free_trial_paid",
+          "inverted_consent_toggle",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "free_trial_paid",
+          "misdirected_download",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "free_trial_paid",
+          "misdirected_download",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "free_trial_paid",
+          "misdirected_download",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "free_trial_paid",
+          "preselected_addon",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "free_trial_paid",
+          "preselected_addon",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "free_trial_paid",
+          "sneak_into_basket",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "inverted_consent_toggle",
+          "misdirected_download",
+          "preselected_addon"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "inverted_consent_toggle",
+          "misdirected_download",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "inverted_consent_toggle",
+          "misdirected_download",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "inverted_consent_toggle",
+          "preselected_addon",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "inverted_consent_toggle",
+          "preselected_addon",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "inverted_consent_toggle",
+          "sneak_into_basket",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "misdirected_download",
+          "preselected_addon",
+          "sneak_into_basket"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "misdirected_download",
+          "preselected_addon",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "misdirected_download",
+          "sneak_into_basket",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      },
+      {
+        "held": [
+          "preselected_addon",
+          "sneak_into_basket",
+          "transparent_overlay"
+        ],
+        "overlap": 0
+      }
+    ],
+    "grid_pair": {
+      "train": 501,
+      "test": 219,
+      "overlap": 0,
+      "test_positive": 109,
+      "test_majority_accuracy": 0.502283105022831
+    }
+  },
+  "code_hashes": {
+    "susbench_logit_probe.py": "1ef7bbdc0324e5095e9297348da61697679cb3a43f6e58c37d280517720b3fec",
+    "test_defense.py": "cd338ca1b85d1ef85777ac7d1f64cb9a47d21e8598cd69c143fdc9f38f68fd55",
+    "diag_rollout.py": "ef24f070b36ae6d5254b60d0282bde56532078c1f7280423485adbd5c12ee626",
+    "run_m1.py": "63765ceced969a1347671bb406c807e8965c8515aff8b1fb60a82bf4a3eae215",
+    "env.py": "262de053e014577a33bbbe5861e1caea2c445fbabc4bb8799da86745c0f1140e",
+    "encoder.py": "f34480d2cdd403366a4fb53dd595cbff1cddd3d7018eb39991d96cd15f3f40f5",
+    "eval_fixed_remove.py": "7af046cdbbabef74e96bc901e82a2f33c04eff6c1e6bf086ec1748d7e3e14dca",
+    "consistency.py": "6f164a7a2c488f01fb6cb766a9fd31a0d2664524f2156ccee178f06640099fb7",
+    "fpr_diag.py": "70b7034cdf4caf4abd41edd46b85cb74d43076fe910290aa9fac3f137f47982d",
+    "test_adaptive_logic.py": "e46c6cda748b5ff4dbe833df791d5979859d49be8fde9034afd1d49e946643ae",
+    "run_adaptive_gpu.py": "179883545abe8e28430416ca443112e9fcc7f6fc89f7247e8ba5b6ae78844804",
+    "test_truthfree.py": "e36dcb577eb435f9ca3f958cf6f9a96a23da6631df5b2b2aed555610b6aa9a01",
+    "susbench_eval.py": "9bf0d32ddc9d1b4d44608b5e2a818b0c5b6bbd1d881897c339935e59dee79749",
+    "adaptive_attack.py": "2f065cc2edf7d8909d0d2db831b708c5178b36a0b8cf711426b63d64aecc15cd",
+    "extract_feats.py": "362ca7e46a4b689f86bc0adac1833cffc621bd179cf3f07680ad6e56c904d3fa",
+    "extract_feats_internvl.py": "0c494035258aff75554d2528671ea76b06ffb0b7f00bf6611eda2b9c59737052",
+    "darkpatterns.py": "19960974e5b7c260c8eeb7289e7c7f510ad56986229d5bbc07078276f72cffe5",
+    "agent.py": "20c3df93ae2923976d43eb2b52c5b9ffe2b1b2a7ca356eac3015bd9f0d7f8820",
+    "run_e2e_learned.py": "9aab3ed94a18424a0a9931377e626eb478c9156ae1ba2488d3b3bbe0fdbf3bda",
+    "run_m0.py": "74d2d29a87aa8bd1091f4608c111652050a714fd321efc39adee1ce6e5b7d570",
+    "class2_eval.py": "900270383238629bca8680dea637fa61def056ae3ce975379e6be90d5db7115a",
+    "ax.py": "f73665314f4f8f32e187d4653cf4ca4ea57b0b190b1a6b5da6ae011933d14c9a",
+    "e3_stabilize.py": "446da59f454618e60d2f028ddb4ba0951d578fb9ffe20edbd90eb7e805062105",
+    "make_crossmodal.py": "6fb91744b9a55e47e91661d6993044a70a8cd070903d16cff5e7f2701b3e986e",
+    "train_pi.py": "77c755c5b32418b6df9bf21b3433160cafb9f94776b8f35716e58ef80c6eda83",
+    "ci_gphi.py": "11b93406cbb042428d2968fe047f2c96d595f256f4308035249569173cda19be",
+    "verify_levels.py": "ad358769b6cf1723c0158c0af4859474144661e91c2e07013d21a2da6afaad21",
+    "make_gphi_dataset.py": "8887257327aabdfafcf71557c13bd4e44fb813b08ba5c2886332734e533fa249",
+    "stats_util.py": "d2bc05caadbdd3d6674fdc8dc288767f5abc4b3dba45d3e31320ec22649135dc",
+    "blindspot.py": "8dc7687b90cdd88611f3ac864a2ea346a5ec6f7c31471dec8b101b9d22f48a4f",
+    "defended_agent.py": "abd4ae34521da9d4f41d4927b960a8fd407eebbe7982f675b49344deaa6629b8",
+    "crossmodal.py": "f721ff38db942c4a898c8cc257e6e1a2e766727e56bbeaa53af8a053bcf3926c",
+    "susbench_probe.py": "1a8b27dfbd778c74c64977b3e867c30123dc700d69758b9b4c964dea96d625d9",
+    "compute_r5_bylevel.py": "c519f7c0de22fe7f09d8a6206f44707005cc57afea2c4197d82371090c091043",
+    "crossmodal_eval.py": "923c8efa4e3eea0ed1791b1c6ffb73e1c974c65cba505741fc6bf9f4d9cbd674",
+    "probe_ax.py": "83938fe701c83faa47bba53e10108f30d4307d4bb4b3c88035e2659c473eb410",
+    "class2_pages.py": "67f5396a912407a5627beb47d8d38acad43888c086e0d136f0f73fcbebbc28b2",
+    "policy.py": "2766660d0e50d517b624e6f5251b31defe97495d65271489e127d17b36361ef1",
+    "realistic_crossmodal.py": "a7cd0be642bf5366f99d53fa2e73fdcbb4821fd9c315573053642e169f834d8b",
+    "verify_signal.py": "637ee19c68c3b805f3c357b3181ca61b04ee99b9941e02d4eef762fea6ae7ad2",
+    "train_gphi.py": "2c36665b64c63a803dc3fd56631168093dedb205de47e9067c27888aae8edeb6",
+    "detectors.py": "47391d920b7f2daac4b603469085f94a2462956668d5d58482d295e8caa04fd2",
+    "fake_agents.py": "d43189fd5ea45ee8e651feed565fba6cabd90f9453af3550971892f2e2b2f2cd",
+    "realistic_v2.py": "be4a910790aad2169b8c5703791c1c2425a6095647a529054cd7f4b226ba8644",
+    "ci_pi.py": "7e3c320171ae34721fb828adff50df4309256070b8859e1f79365c97da19ac80",
+    "eval_pi.py": "28f51b9dadf77d0f8f879525b66a52c6990763d56a4516114502c7c2c8d7e109",
+    "learned_gphi.py": "9ed323755170c4f1611351202c70a2c4f4c05ff827bfa0b014b0dd59adae40a8",
+    "prompted_baseline.py": "83cea1837e78f5bee27db694efaa2bcc40960012112bedc3d64835228e7a675d",
+    "transfer_eval.py": "ba0504a23fa706cfdf2d2fd07705f840f59c6b0e734ccf348a9a182aefa701a3"
+  }
+}

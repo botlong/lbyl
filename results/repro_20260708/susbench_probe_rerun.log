@@ -1,0 +1,7 @@
+discovered 126 injection entries
+
+wrote 169 elements (96 deceptive / 73 safe)
+by (class,label): {('action_mismatch', 1): 3, ('visual', 0): 62, ('visual', 1): 69, ('linguistic', 0): 11, ('linguistic', 1): 24}
+coverage: {'ok:disguised': 3, 'ok:false_hierarchy': 5, 'empty:preselect': 5, 'ok:pop_up': 12, 'ok:double_neg_notif': 4, 'ok:confirm_notif': 1, 'ok:social': 9, 'empty:disguised': 9, 'ok:preselect': 8, 'ok:confirm_shaming': 12, 'empty:false_hierarchy': 7, 'ok:doube_negative': 1, 'ok:double_negative': 13, 'empty:social': 2, 'ok:forced_action': 12, 'ok:hidden_information': 8, 'empty:hidden_information': 3, 'empty:double_negative': 1, 'ok:fake_social_proof': 1, 'ok:comfirm_shaming': 1, 'empty:fake_social_proof': 1, 'empty:preselect_final_cut_pro': 1, 'empty:preselect_logic_pro': 1, 'empty:preselect_iphone_care': 1, 'empty:disguised_ad_1': 1, 'empty:disguised_ad_2': 1, 'empty:disguised_ad_3': 1, 'err:hidden_information': 1, 'ok:fake_social': 1}
+elements with a real aria-label: 9/169  (few -> as-trained aria channel is inert in the wild)
+SUSBENCH_PROBE_DONE

@@ -1,0 +1,7 @@
+pages/
+gphi_data/
+gphi_data_*/
+adaptive_gphi_data/
+__pycache__/
+*.pyc
+adaptive_out/frontier_adaptive.json

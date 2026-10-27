@@ -1,0 +1,27 @@
+train gphi_data_realistic_cm: 1344 rows | test class2: 1008 rows | seeds=8 NO_NUM=1
+  seed0: honest_A=0.05  honest_B=0.21  swap_A=0.71  swap_B=0.86  append=0.64  hidden=0.93
+  seed1: honest_A=0.14  honest_B=0.14  swap_A=0.86  swap_B=0.83  append=0.50  hidden=0.93
+  seed2: honest_A=0.05  honest_B=0.14  swap_A=0.83  swap_B=0.86  append=0.64  hidden=0.79
+  seed3: honest_A=0.14  honest_B=0.14  swap_A=0.86  swap_B=0.69  append=0.57  hidden=0.64
+  seed4: honest_A=0.02  honest_B=0.19  swap_A=0.71  swap_B=0.83  append=0.71  hidden=0.71
+  seed5: honest_A=0.14  honest_B=0.36  swap_A=0.88  swap_B=0.86  append=0.40  hidden=0.74
+  seed6: honest_A=0.07  honest_B=0.12  swap_A=0.90  swap_B=0.93  append=0.64  hidden=0.86
+  seed7: honest_A=0.00  honest_B=0.17  swap_A=0.75  swap_B=0.90  append=0.57  hidden=0.88
+
+=== Class-2 zero-shot flag rate, 8 seeds (mean +- 95% CI) ===
+  variant   label    n          g_phi  heuristic
+  honest_A      0  168     0.08 +- 0.04       0.36
+  honest_B      0  168     0.18 +- 0.05       0.29
+  swap_A        1  168     0.81 +- 0.05       0.21
+  swap_B        1  168     0.85 +- 0.05       0.57
+  append        1  168     0.59 +- 0.07       0.21
+  hidden        1  168     0.81 +- 0.07       1.00
+
+  per-template flag rate pooled over seeds (types with any variant < 0.5 flagged):
+   honest_A: disguised_unsubscribe=0.58
+   honest_B: disguised_unsubscribe=0.83, inverted_consent_toggle=0.75
+   swap_A: disguised_unsubscribe=0.29, fake_close_ad=0.17, inverted_consent_toggle=0.29
+   swap_B: bait_play_button=0.46, misdirected_download=0.17
+   append: disguised_decline=0.00, disguised_unsubscribe=0.00, fake_close_ad=0.00, free_trial_paid=0.21, inverted_consent_toggle=0.00
+   hidden: disguised_decline=0.21, disguised_unsubscribe=0.38, inverted_consent_toggle=0.33
+CLASS2_EVAL_DONE

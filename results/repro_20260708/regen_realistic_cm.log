@@ -1,0 +1,32 @@
+
+wrote 1344 elements  (672 mismatch / 672 match)  -> /root/autodl-tmp/lbyl/m0/gphi_data_realistic_cm
+aria-concept label balance (each ~50/50 -> aria alone cannot solve it):
+  bait_play_button:A label0= 24 label1= 24
+  bait_play_button:B label0= 24 label1= 24
+  confirmshaming:A   label0= 24 label1= 24
+  confirmshaming:B   label0= 24 label1= 24
+  countdown_claim:A  label0= 24 label1= 24
+  countdown_claim:B  label0= 24 label1= 24
+  disguised_decline:A label0= 24 label1= 24
+  disguised_decline:B label0= 24 label1= 24
+  disguised_unsubscribe:A label0= 24 label1= 24
+  disguised_unsubscribe:B label0= 24 label1= 24
+  fake_captcha_allow:A label0= 24 label1= 24
+  fake_captcha_allow:B label0= 24 label1= 24
+  fake_close_ad:A    label0= 24 label1= 24
+  fake_close_ad:B    label0= 24 label1= 24
+  fake_system_update:A label0= 24 label1= 24
+  fake_system_update:B label0= 24 label1= 24
+  free_trial_paid:A  label0= 24 label1= 24
+  free_trial_paid:B  label0= 24 label1= 24
+  inverted_consent_toggle:A label0= 24 label1= 24
+  inverted_consent_toggle:B label0= 24 label1= 24
+  misdirected_download:A label0= 24 label1= 24
+  misdirected_download:B label0= 24 label1= 24
+  preselected_addon:A label0= 24 label1= 24
+  preselected_addon:B label0= 24 label1= 24
+  sneak_into_basket:A label0= 24 label1= 24
+  sneak_into_basket:B label0= 24 label1= 24
+  transparent_overlay:A label0= 24 label1= 24
+  transparent_overlay:B label0= 24 label1= 24
+MAKE_CROSSMODAL_DONE

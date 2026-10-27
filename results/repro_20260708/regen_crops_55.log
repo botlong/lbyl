@@ -1,0 +1,46 @@
+
+wrote 1840 elements  (840 mismatch / 1000 consistent)  -> gphi_data_55
+label balance by (template, level):
+  bait_play_button       L0  total= 40  mismatch=20
+  bait_play_button       L1  total= 40  mismatch=20
+  bait_play_button       L2  total= 40  mismatch=20
+  confirmshaming         L0  total= 40  mismatch=20
+  confirmshaming         L1  total= 40  mismatch=20
+  confirmshaming         L2  total= 40  mismatch=20
+  countdown_claim        L0  total= 40  mismatch=20
+  countdown_claim        L1  total= 40  mismatch=20
+  countdown_claim        L2  total= 40  mismatch=20
+  disguised_decline      L0  total= 60  mismatch=20
+  disguised_decline      L1  total= 60  mismatch=20
+  disguised_decline      L2  total= 40  mismatch=20
+  disguised_unsubscribe  L0  total= 40  mismatch=20
+  disguised_unsubscribe  L1  total= 40  mismatch=20
+  disguised_unsubscribe  L2  total= 40  mismatch=20
+  fake_captcha_allow     L0  total= 40  mismatch=20
+  fake_captcha_allow     L1  total= 40  mismatch=20
+  fake_captcha_allow     L2  total= 40  mismatch=20
+  fake_close_ad          L0  total= 60  mismatch=20
+  fake_close_ad          L1  total= 60  mismatch=20
+  fake_close_ad          L2  total= 60  mismatch=20
+  fake_system_update     L0  total= 40  mismatch=20
+  fake_system_update     L1  total= 40  mismatch=20
+  fake_system_update     L2  total= 40  mismatch=20
+  free_trial_paid        L0  total= 40  mismatch=20
+  free_trial_paid        L1  total= 40  mismatch=20
+  free_trial_paid        L2  total= 40  mismatch=20
+  inverted_consent_toggle L0  total= 40  mismatch=20
+  inverted_consent_toggle L1  total= 40  mismatch=20
+  inverted_consent_toggle L2  total= 40  mismatch=20
+  misdirected_download   L0  total= 40  mismatch=20
+  misdirected_download   L1  total= 40  mismatch=20
+  misdirected_download   L2  total= 40  mismatch=20
+  preselected_addon      L0  total= 40  mismatch=20
+  preselected_addon      L1  total= 40  mismatch=20
+  preselected_addon      L2  total= 40  mismatch=20
+  sneak_into_basket      L0  total= 40  mismatch=20
+  sneak_into_basket      L1  total= 40  mismatch=20
+  sneak_into_basket      L2  total= 40  mismatch=20
+  transparent_overlay    L0  total= 60  mismatch=20
+  transparent_overlay    L1  total= 60  mismatch=20
+  transparent_overlay    L2  total= 60  mismatch=20
+MAKE_GPHI_DATA_DONE

@@ -1,0 +1,17 @@
+data=gphi_data_realistic_v2 rows=224 pos=112 modes=['neutral', 'dude'] model=Qwen2.5-VL-3B-Instruct
+  crop=rv2_19_00_e1.png size=(292, 92) label=1
+  crop=rv2_19_00_e2.png size=(292, 92) label=0
+  crop=rv2_19_00_e3.png size=(292, 92) label=1
+  [neutral] 50/224
+  [neutral] 100/224
+  [neutral] 150/224
+  [neutral] 200/224
+
+[PROMPTED-VLM neutral]  n=224 pos=112  recall=0.99 FPR=0.54 prec=0.65 acc=0.72
+  [dude] 50/224
+  [dude] 100/224
+  [dude] 150/224
+  [dude] 200/224
+
+[PROMPTED-VLM dude]  n=224 pos=112  recall=1.00 FPR=1.00 prec=0.50 acc=0.50
+PROMPTED_DONE

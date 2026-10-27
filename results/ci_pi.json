@@ -1,0 +1,68 @@
+{
+  "seeds": 5,
+  "per_seed": [
+    {
+      "seed": 0,
+      "best_safe_frac": 0.6666666666666666,
+      "failed": true,
+      "eval_rc": 1,
+      "held_asr": null,
+      "held_safe": null,
+      "fpr_safe": null
+    },
+    {
+      "seed": 1,
+      "best_safe_frac": 0.6666666666666666,
+      "held_asr": 0.0,
+      "held_safe": 0.0,
+      "fpr_safe": 0.667,
+      "eval_rc": 0
+    },
+    {
+      "seed": 2,
+      "best_safe_frac": 0.0,
+      "held_asr": 0.0,
+      "held_safe": 0.0,
+      "fpr_safe": 0.667,
+      "eval_rc": 0
+    },
+    {
+      "seed": 3,
+      "best_safe_frac": 0.6666666666666666,
+      "held_asr": 0.0,
+      "held_safe": 0.0,
+      "fpr_safe": 0.667,
+      "eval_rc": 0
+    },
+    {
+      "seed": 4,
+      "best_safe_frac": 0.6666666666666666,
+      "held_asr": 0.0,
+      "held_safe": 0.0,
+      "fpr_safe": 0.667,
+      "eval_rc": 0
+    }
+  ],
+  "summary": {
+    "best_safe_frac": {
+      "mean": 0.5,
+      "ci95": 0.32666666666666666,
+      "n": 4
+    },
+    "held_asr": {
+      "mean": 0.0,
+      "ci95": 0.0,
+      "n": 4
+    },
+    "held_safe": {
+      "mean": 0.0,
+      "ci95": 0.0,
+      "n": 4
+    },
+    "fpr_safe": {
+      "mean": 0.667,
+      "ci95": 0.0,
+      "n": 4
+    }
+  }
+}

@@ -1,0 +1,10 @@
+[cfg] agent=qwen detector=heuristic feats=live:Qwen2.5-VL-3B-Instruct K=8 epochs=6 lam=0.05 threads=8
+[data] 220/280 train tasks (holdout templates: ['disguised_decline', 'fake_close_ad', 'inverted_consent_toggle'])
+[epoch 0] states=80 mean_R=+0.896 safe_frac=0.96 | sampled actions: remove=616 relabel=5 highlight=10 noop=9
+[epoch 1] states=80 mean_R=+0.950 safe_frac=1.00 | sampled actions: remove=640 relabel=0 highlight=0 noop=0
+[epoch 2] states=80 mean_R=+0.950 safe_frac=1.00 | sampled actions: remove=640 relabel=0 highlight=0 noop=0
+[epoch 3] states=80 mean_R=+0.950 safe_frac=1.00 | sampled actions: remove=640 relabel=0 highlight=0 noop=0
+[epoch 4] states=80 mean_R=+0.950 safe_frac=1.00 | sampled actions: remove=640 relabel=0 highlight=0 noop=0
+[epoch 5] states=80 mean_R=+0.950 safe_frac=1.00 | sampled actions: remove=640 relabel=0 highlight=0 noop=0
+[saved best epoch=1 safe_frac=1.00] results/neucom_p1/pi_theta_heur.pt
+TRAIN_PI_DONE

@@ -1,0 +1,8 @@
+matched crops 1344/1344; cos(vis) mean=1.0000 min=1.0000; cos(txt) mean=1.0000 min=1.0000
+seed0 archived     acc=1.000 recall=1.000 fpr=0.000
+seed0 re-rendered  acc=1.000 recall=1.000 fpr=0.000
+seed1 archived     acc=1.000 recall=1.000 fpr=0.000
+seed1 re-rendered  acc=1.000 recall=1.000 fpr=0.000
+seed2 archived     acc=1.000 recall=1.000 fpr=0.000
+seed2 re-rendered  acc=1.000 recall=1.000 fpr=0.000
+RERENDER_DONE

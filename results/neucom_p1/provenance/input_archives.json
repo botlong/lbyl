@@ -1,0 +1,47 @@
+{
+  "gphi_data.tar.gz": {
+    "sha256": "8ebb46b1119b451d868d7e365089ab708dff2628ca7959beab70c05c05c8f63a",
+    "bytes": 875961,
+    "members": 622
+  },
+  "gphi_data_55.tar.gz": {
+    "sha256": "08624e62441836a5ff6354850dd5eb36306c27b06f96cd70351176feadd32826",
+    "bytes": 18259244,
+    "members": 1843
+  },
+  "gphi_data_class2.tar.gz": {
+    "sha256": "a390e9e042472f77dd2a9a9e9641d929b9a0966666f39261d1f4db313a21f081",
+    "bytes": 4555392,
+    "members": 1010
+  },
+  "gphi_data_crossmodal.tar.gz": {
+    "sha256": "4ab77ae6196398de4bf7a95020d738c8c216aba2a5125b9f8706785d739a4921",
+    "bytes": 3994676,
+    "members": 722
+  },
+  "gphi_data_deploy_rerender.tar.gz": {
+    "sha256": "f10a67282c084b484efd77b3f01ffe3ad3f1a3311e0b2376a7a1026a8774918a",
+    "bytes": 5157857,
+    "members": 622
+  },
+  "gphi_data_realistic_v2.tar.gz": {
+    "sha256": "7a7e28e1bedecf51290c424c4a460145ef820480137024486816ed9758ad3065",
+    "bytes": 92447593,
+    "members": 4484
+  },
+  "gphi_data_susbench.tar.gz": {
+    "sha256": "3067c86c55279efcedefc9f418ff385c2938815a51afded5b401965410e147c2",
+    "bytes": 1773349,
+    "members": 171
+  },
+  "gphi_data_susbench_dest.tar.gz": {
+    "sha256": "7fcd5265e2369f37b8a117162534fec3c362fdb25a224d96feb86feaef1504f2",
+    "bytes": 1688195,
+    "members": 171
+  },
+  "gphi_data_susbench_rawaria.tar.gz": {
+    "sha256": "4182a3cd72d3e5038176e1018884c54a31be89c807497481b42e93535bcd3373",
+    "bytes": 1246934,
+    "members": 171
+  }
+}

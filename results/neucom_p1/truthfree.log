@@ -1,0 +1,4 @@
+[heuristic] 560 click checks, 0 differ after deleting ground truth
+deployed head: gphi_data_realistic_v2, seed 0, NO_NUM=1; live encoding with Qwen2.5-VL-3B-Instruct
+[learned (live)] 560 click checks, 0 differ after deleting ground truth
+TRUTHFREE_OK

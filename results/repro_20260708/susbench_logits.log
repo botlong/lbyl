@@ -1,0 +1,9 @@
+probe provenance: model=/root/autodl-tmp/models/Qwen2.5-VL-3B-Instruct txt_mode=embed train=1344 epochs=120
+train mean logit: honest(label0,n=672) = -14.5   mismatch(label1,n=672) = +12.3
+[gphi_data_susbench] class=action_mismatch  n=  3 mean logit = +1.72
+[gphi_data_susbench] class=linguistic       n= 35 mean logit = +2.29
+[gphi_data_susbench] class=visual           n=131 mean logit = +2.26
+[gphi_data_susbench_dest] class=action_mismatch  n=  3 mean logit = -0.15
+[gphi_data_susbench_dest] class=linguistic       n= 35 mean logit = -1.00
+[gphi_data_susbench_dest] class=visual           n=131 mean logit = -0.93
+SUSBENCH_LOGIT_PROBE_DONE

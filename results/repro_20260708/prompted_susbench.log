@@ -1,0 +1,16 @@
+data=gphi_data_susbench rows=169 pos=96 modes=['dude', 'visual'] model=Qwen2.5-VL-3B-Instruct
+  crop=amz_disguised_e0.png size=(772, 91) label=1
+  crop=amz_false_hierarchy_e0.png size=(91, 43) label=0
+  crop=amz_false_hierarchy_e1.png size=(175, 46) label=1
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   5%|▍         | 40/824 [00:00<00:02, 373.59it/s]Loading weights:   9%|▉         | 78/824 [00:00<00:02, 331.15it/s]Loading weights:  14%|█▎        | 112/824 [00:00<00:02, 331.06it/s]Loading weights:  18%|█▊        | 147/824 [00:00<00:02, 323.61it/s]Loading weights:  22%|██▏       | 180/824 [00:00<00:02, 315.75it/s]Loading weights:  26%|██▌       | 212/824 [00:00<00:02, 304.70it/s]Loading weights:  30%|██▉       | 244/824 [00:00<00:01, 300.24it/s]Loading weights:  34%|███▎      | 278/824 [00:00<00:01, 298.78it/s]Loading weights:  38%|███▊      | 311/824 [00:00<00:01, 307.02it/s]Loading weights:  42%|████▏     | 342/824 [00:01<00:01, 296.06it/s]Loading weights:  46%|████▌     | 375/824 [00:01<00:01, 297.67it/s]Loading weights:  50%|████▉     | 411/824 [00:01<00:01, 311.81it/s]Loading weights:  57%|█████▋    | 468/824 [00:01<00:00, 384.27it/s]Loading weights:  71%|███████   | 584/824 [00:01<00:00, 607.19it/s]Loading weights:  85%|████████▍ | 697/824 [00:01<00:00, 755.47it/s]Loading weights: 100%|█████████▉| 821/824 [00:01<00:00, 871.54it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 472.88it/s]
+  [dude] 50/169
+  [dude] 100/169
+  [dude] 150/169
+
+[PROMPTED-VLM dude]  n=169 pos=96  recall=0.80 FPR=0.96 prec=0.52 acc=0.47
+  [visual] 50/169
+  [visual] 100/169
+  [visual] 150/169
+
+[PROMPTED-VLM visual]  n=169 pos=96  recall=0.10 FPR=0.12 prec=0.53 acc=0.44
+PROMPTED_DONE

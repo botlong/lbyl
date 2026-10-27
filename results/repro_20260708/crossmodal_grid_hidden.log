@@ -1,0 +1,16 @@
+feats=feats_hidden.pt txt_mode=hidden
+loaded 720 crossmodal elements (mismatch=360 / match=360), vis_dim=2048 txt_dim=2048
+
+========== split=RANDOM-70/30 (unseen paraphrase/layout)  (train=502, test=218, test mismatch=109) ==========
+  channel           recall     FPR     acc   (chance acc≈0.50)
+  FULL  (vis+txt)    0.89    0.00    0.94
+  ARIA-ONLY         0.69    0.70    0.50
+  PIXEL-ONLY        0.03    0.03    0.50
+
+========== split=HOLDOUT ['allow_notif', 'download_ad', 'subscribe']  (train=467, test=253, test mismatch=163) ==========
+  channel           recall     FPR     acc   (chance acc≈0.50)
+  FULL  (vis+txt)    0.92    0.89    0.63
+  ARIA-ONLY         0.10    0.00    0.42
+  PIXEL-ONLY        0.63    0.89    0.44
+
+CROSSMODAL_EVAL_DONE

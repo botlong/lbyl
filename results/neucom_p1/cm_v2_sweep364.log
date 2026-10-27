@@ -1,0 +1,14 @@
+### sweep
+data=/root/lbyl-neucom/m0/gphi_data_realistic_v2 feats=feats.pt txt_mode=embed struct=ax_name+ax_role
+loaded 4480 elements (mismatch=2240 / match=2240), distinct inputs=3728, vis_dim=2048 txt_dim=2048
+  50/364 trios
+  100/364 trios
+  150/364 trios
+  200/364 trios
+  250/364 trios
+  300/364 trios
+  350/364 trios
+  364 three-type hold-outs, with numeric: mean acc 0.617, sd 0.070, range 0.44-0.82
+  364 three-type hold-outs, no numeric: mean acc 0.617, sd 0.071, range 0.39-0.82
+
+CROSSMODAL_EVAL_DONE

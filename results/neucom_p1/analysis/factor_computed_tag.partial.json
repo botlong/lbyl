@@ -1,0 +1,1061 @@
+{
+  "protocol": "same visual inputs; raw/computed name x tag/AX role; numeric-free; 8 seeds; fold seed=1000*run+template_index; 200 epochs; threshold 0.5",
+  "configs": {
+    "computed_tag": {
+      "seeds": [
+        {
+          "recall": 0.7380952380952381,
+          "fpr": 0.09523809523809523,
+          "acc": 0.8343253968253969
+        },
+        {
+          "recall": 0.7142857142857143,
+          "fpr": 0.16666666666666666,
+          "acc": 0.7946428571428571
+        },
+        {
+          "recall": 0.7857142857142857,
+          "fpr": 0.16666666666666666,
+          "acc": 0.8263888888888887
+        },
+        {
+          "recall": 0.7619047619047619,
+          "fpr": 0.13333333333333333,
+          "acc": 0.8234126984126984
+        },
+        {
+          "recall": 0.7571428571428572,
+          "fpr": 0.19047619047619047,
+          "acc": 0.7962301587301587
+        },
+        {
+          "recall": 0.7857142857142857,
+          "fpr": 0.11904761904761904,
+          "acc": 0.8422619047619048
+        },
+        {
+          "recall": 0.6749999999999999,
+          "fpr": 0.19047619047619047,
+          "acc": 0.7580853174603176
+        },
+        {
+          "recall": 0.8095238095238094,
+          "fpr": 0.19523809523809524,
+          "acc": 0.8105158730158729
+        }
+      ],
+      "per_template": {
+        "bait_play_button": [
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          }
+        ],
+        "confirmshaming": [
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          }
+        ],
+        "countdown_claim": [
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          }
+        ],
+        "disguised_decline": [
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.625,
+            "pos": 60,
+            "n": 160
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.625,
+            "pos": 60,
+            "n": 160
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.625,
+            "pos": 60,
+            "n": 160
+          },
+          {
+            "recall": 0.6666666666666666,
+            "fpr": 0.2,
+            "prec": 0.6666666666666666,
+            "acc": 0.75,
+            "pos": 60,
+            "n": 160
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.625,
+            "pos": 60,
+            "n": 160
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.625,
+            "pos": 60,
+            "n": 160
+          },
+          {
+            "recall": 0.11666666666666667,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 0.66875,
+            "pos": 60,
+            "n": 160
+          },
+          {
+            "recall": 0.6666666666666666,
+            "fpr": 0.4,
+            "prec": 0.5,
+            "acc": 0.625,
+            "pos": 60,
+            "n": 160
+          }
+        ],
+        "disguised_unsubscribe": [
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 0.6666666666666666,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 0.8333333333333334,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          }
+        ],
+        "fake_captcha_allow": [
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.3333333333333333,
+            "prec": 0.75,
+            "acc": 0.8333333333333334,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.3333333333333333,
+            "prec": 0.75,
+            "acc": 0.8333333333333334,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.3333333333333333,
+            "prec": 0.75,
+            "acc": 0.8333333333333334,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.6666666666666666,
+            "prec": 0.6,
+            "acc": 0.6666666666666666,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.6666666666666666,
+            "prec": 0.6,
+            "acc": 0.6666666666666666,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.3333333333333333,
+            "prec": 0.75,
+            "acc": 0.8333333333333334,
+            "pos": 60,
+            "n": 120
+          }
+        ],
+        "fake_close_ad": [
+          {
+            "recall": 0.6666666666666666,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 0.8888888888888888,
+            "pos": 60,
+            "n": 180
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.6666666666666666,
+            "pos": 60,
+            "n": 180
+          },
+          {
+            "recall": 0.3333333333333333,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 0.7777777777777778,
+            "pos": 60,
+            "n": 180
+          },
+          {
+            "recall": 0.3333333333333333,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 0.7777777777777778,
+            "pos": 60,
+            "n": 180
+          },
+          {
+            "recall": 0.6666666666666666,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 0.8888888888888888,
+            "pos": 60,
+            "n": 180
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 180
+          },
+          {
+            "recall": 0.3333333333333333,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 0.7777777777777778,
+            "pos": 60,
+            "n": 180
+          },
+          {
+            "recall": 0.6666666666666666,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 0.8888888888888888,
+            "pos": 60,
+            "n": 180
+          }
+        ],
+        "fake_system_update": [
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 0.0,
+            "fpr": 0.0,
+            "prec": 0.0,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          }
+        ],
+        "free_trial_paid": [
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 0.9333333333333333,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 0.9666666666666667,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          }
+        ],
+        "inverted_consent_toggle": [
+          {
+            "recall": 0.6666666666666666,
+            "fpr": 0.3333333333333333,
+            "prec": 0.6666666666666666,
+            "acc": 0.6666666666666666,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 1.0,
+            "prec": 0.5,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 1.0,
+            "prec": 0.5,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 0.6666666666666666,
+            "fpr": 0.3333333333333333,
+            "prec": 0.6666666666666666,
+            "acc": 0.6666666666666666,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 1.0,
+            "prec": 0.5,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.6666666666666666,
+            "prec": 0.6,
+            "acc": 0.6666666666666666,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 0.0,
+            "fpr": 1.0,
+            "prec": 0.0,
+            "acc": 0.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 1.0,
+            "prec": 0.5,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          }
+        ],
+        "misdirected_download": [
+          {
+            "recall": 1.0,
+            "fpr": 1.0,
+            "prec": 0.5,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 1.0,
+            "prec": 0.5,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 1.0,
+            "prec": 0.5,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 1.0,
+            "prec": 0.5,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 1.0,
+            "prec": 0.5,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 1.0,
+            "prec": 0.5,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 1.0,
+            "prec": 0.5,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 1.0,
+            "prec": 0.5,
+            "acc": 0.5,
+            "pos": 60,
+            "n": 120
+          }
+        ],
+        "preselected_addon": [
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          }
+        ],
+        "sneak_into_basket": [
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 120
+          }
+        ],
+        "transparent_overlay": [
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 180
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 180
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 180
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 180
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 180
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 180
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 180
+          },
+          {
+            "recall": 1.0,
+            "fpr": 0.0,
+            "prec": 1.0,
+            "acc": 1.0,
+            "pos": 60,
+            "n": 180
+          }
+        ]
+      }
+    }
+  },
+  "template_metadata": {
+    "bait_play_button": {
+      "n": 120,
+      "empty_raw": 0,
+      "changed_name": 0,
+      "changed_role": 20
+    },
+    "confirmshaming": {
+      "n": 120,
+      "empty_raw": 0,
+      "changed_name": 0,
+      "changed_role": 20
+    },
+    "countdown_claim": {
+      "n": 120,
+      "empty_raw": 0,
+      "changed_name": 0,
+      "changed_role": 20
+    },
+    "disguised_decline": {
+      "n": 160,
+      "empty_raw": 40,
+      "changed_name": 40,
+      "changed_role": 20
+    },
+    "disguised_unsubscribe": {
+      "n": 120,
+      "empty_raw": 0,
+      "changed_name": 0,
+      "changed_role": 20
+    },
+    "fake_captcha_allow": {
+      "n": 120,
+      "empty_raw": 0,
+      "changed_name": 0,
+      "changed_role": 20
+    },
+    "fake_close_ad": {
+      "n": 180,
+      "empty_raw": 60,
+      "changed_name": 60,
+      "changed_role": 80
+    },
+    "fake_system_update": {
+      "n": 120,
+      "empty_raw": 0,
+      "changed_name": 0,
+      "changed_role": 20
+    },
+    "free_trial_paid": {
+      "n": 120,
+      "empty_raw": 0,
+      "changed_name": 0,
+      "changed_role": 20
+    },
+    "inverted_consent_toggle": {
+      "n": 120,
+      "empty_raw": 0,
+      "changed_name": 0,
+      "changed_role": 20
+    },
+    "misdirected_download": {
+      "n": 120,
+      "empty_raw": 0,
+      "changed_name": 0,
+      "changed_role": 20
+    },
+    "preselected_addon": {
+      "n": 120,
+      "empty_raw": 0,
+      "changed_name": 0,
+      "changed_role": 20
+    },
+    "sneak_into_basket": {
+      "n": 120,
+      "empty_raw": 0,
+      "changed_name": 0,
+      "changed_role": 20
+    },
+    "transparent_overlay": {
+      "n": 180,
+      "empty_raw": 120,
+      "changed_name": 60,
+      "changed_role": 120
+    }
+  }
+}

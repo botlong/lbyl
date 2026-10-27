@@ -1,0 +1,17 @@
+data=gphi_data_55 rows=400 pos=200 modes=['neutral'] model=Qwen2.5-VL-3B-Instruct
+  crop=inverted_consent_toggle_L1_04_e0.png size=(172, 61) label=1
+  crop=transparent_overlay_L1_10_e1.png size=(572, 74) label=1
+  crop=bait_play_button_L2_17_e1.png size=(220, 70) label=0
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   6%|▋         | 53/824 [00:00<00:01, 477.90it/s]Loading weights:  12%|█▏        | 101/824 [00:00<00:01, 379.45it/s]Loading weights:  17%|█▋        | 140/824 [00:00<00:01, 359.38it/s]Loading weights:  21%|██▏       | 177/824 [00:00<00:01, 342.75it/s]Loading weights:  26%|██▌       | 212/824 [00:00<00:01, 334.83it/s]Loading weights:  30%|██▉       | 246/824 [00:00<00:01, 323.60it/s]Loading weights:  34%|███▍      | 280/824 [00:00<00:01, 321.56it/s]Loading weights:  38%|███▊      | 315/824 [00:00<00:01, 326.75it/s]Loading weights:  42%|████▏     | 349/824 [00:01<00:01, 330.55it/s]Loading weights:  46%|████▋     | 383/824 [00:01<00:01, 319.59it/s]Loading weights:  50%|█████     | 416/824 [00:01<00:01, 316.69it/s]Loading weights:  61%|██████    | 504/824 [00:01<00:00, 477.58it/s]Loading weights:  76%|███████▋  | 630/824 [00:01<00:00, 702.43it/s]Loading weights:  90%|█████████ | 744/824 [00:01<00:00, 827.80it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 504.02it/s]
+  [neutral] 50/400
+  [neutral] 100/400
+  [neutral] 150/400
+  [neutral] 200/400
+  [neutral] 250/400
+  [neutral] 300/400
+  [neutral] 350/400
+  [neutral] 400/400
+
+[PROMPTED-VLM neutral]  n=400 pos=200  recall=0.86 FPR=0.60 prec=0.59 acc=0.63
+PROMPTED_DONE
+NEUTRAL_LEGS_DONE

@@ -1,0 +1,33 @@
+device=cuda dtype=torch.bfloat16 model=Qwen2.5-VL-3B-Instruct
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:  36%|███▋      | 300/824 [00:00<00:00, 2993.45it/s]Loading weights: 100%|██████████| 824/824 [00:00<00:00, 4392.88it/s]
+loaded in 2s
+[probe] vis_feat=(2048,) txt_feat=(2048,) grid_thw=[[1, 6, 24]]
+  50/1344  (0.07s/row)
+  100/1344  (0.05s/row)
+  150/1344  (0.04s/row)
+  200/1344  (0.04s/row)
+  250/1344  (0.04s/row)
+  300/1344  (0.05s/row)
+  350/1344  (0.04s/row)
+  400/1344  (0.04s/row)
+  450/1344  (0.04s/row)
+  500/1344  (0.04s/row)
+  550/1344  (0.04s/row)
+  600/1344  (0.04s/row)
+  650/1344  (0.04s/row)
+  700/1344  (0.04s/row)
+  750/1344  (0.04s/row)
+  800/1344  (0.04s/row)
+  850/1344  (0.04s/row)
+  900/1344  (0.04s/row)
+  950/1344  (0.04s/row)
+  1000/1344  (0.04s/row)
+  1050/1344  (0.03s/row)
+  1100/1344  (0.03s/row)
+  1150/1344  (0.03s/row)
+  1200/1344  (0.03s/row)
+  1250/1344  (0.03s/row)
+  1300/1344  (0.03s/row)
+  1344/1344  (0.03s/row)
+saved 1344 feats -> gphi_data_realistic_rerender/feats.pt
+EXTRACT_DONE
